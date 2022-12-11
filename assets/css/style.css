@@ -80,6 +80,7 @@ h3 {
 
 .hero-image h1 {
     font-size: 500%;
+    letter-spacing: 10px;
     position: center;
     bottom: 50%;
     background: rgb(14, 14, 15);
