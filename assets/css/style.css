@@ -17,7 +17,7 @@ body {
 h1, h2 {
     font-family: 'Quicksand', sans-serif;
     text-transform: lowercase;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     color: #453d31;
     font-size: 200%;
 }
@@ -25,7 +25,43 @@ h1, h2 {
 h3 {
     font-family: 'Quicksand', sans-serif;
     text-transform: lowercase;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     color: #453d31;
     font-size: 150%;
+}
+
+/* navigation links (need to increase spacing between page names)*/
+#navbar {
+    font-size: 110%;
+    letter-spacing: 1px;
+    margin: 0.5vw 1vw;
+    /* height: 4.5vh;
+    line-height: 40px; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#item {
+    padding: 0 12.5px;
+}
+
+
+#navbar li {
+    list-style-type: none;
+    margin: 0.5vw;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar a:hover {
+    border-bottom: 1.5px solid #0B0A08;
+}
+
+.active {
+    border-bottom: 1.5px solid #0B0A08;
 }
