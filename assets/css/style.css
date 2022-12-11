@@ -82,9 +82,15 @@ h3 {
     font-size: 500%;
     position: center;
     bottom: 50%;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.4);
+    background: rgb(14, 14, 15);
+    background: rgba(14, 14, 15, 0.4);
     color: #D5D1CB;
     width: 100%;
     padding: 20px 100px;
+}
+
+/* branding info */
+
+#brandinginfo h2 {
+    padding: 10px 100px;
 }
