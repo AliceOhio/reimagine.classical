@@ -1,3 +1,12 @@
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* (
+    margin: 0;
+    padding: 0;
+    border: none;
+)
+
+body {
+    font-family: 'Martel', serif;
+    font-weight: 300;
 }
