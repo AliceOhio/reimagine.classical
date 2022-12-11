@@ -1,12 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-* (
+* {
     margin: 0;
     padding: 0;
     border: none;
-)
+}
 
 body {
     font-family: 'Martel', serif;
-    font-weight: 300;
+    font-weight: 400;
+    color: #0B0A08;
+    background-color: #D5D1CB;
+}
+
+/* headings */
+h1, h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 6px;
+    color: #453d31;
+    font-size: 200%;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 6px;
+    color: #453d31;
+    font-size: 150%;
 }
