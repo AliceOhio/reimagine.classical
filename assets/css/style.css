@@ -110,7 +110,7 @@ h3 {
 } */
 
 /* https://css-tricks.com/adaptive-photo-layout-with-flexbox/ */
-
+/* 
 #photos ul {
     display: flex;
     flex-wrap: wrap;
@@ -141,10 +141,10 @@ h3 {
 
 #photos .text-block:hover {
     background-color: white;
-}
+} */
 
 /* masonry design gallery from Love Running Project */
-
+/* 
 #gallerywithdesc {
     clear: both;
     line-height: 0;
@@ -154,10 +154,10 @@ h3 {
 
 #gallerywithdesc > img {
     width: 100%;
-}
+} */
 
 /* Coding from dcode.domenade.com for image fade overlay text */
-
+/* 
 .image {
 	position: relative;
 	width: 100%;
@@ -167,7 +167,7 @@ h3 {
 	display: block;
 	width: 100%;
 } */
-
+/* 
 .image__overlay {
 	position: absolute;
 	top: 0;
@@ -214,18 +214,19 @@ h3 {
 .image__description {
 	font-size: 1.25em;
 	margin-top: 0.25em;
-}
+} */ */
 
 /* code from WebDevSimplified https://github.com/WebDevSimplified/css-image-hover-effect */
 
 .grid {
     display: grid;
-    grid-template-columns: repeat (auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
 }
 
 .img-wrapper {
     position: relative;
     overflow: hidden;
+    width: 50%;
 }
 
 .img-wrapper > img {
