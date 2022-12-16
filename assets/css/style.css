@@ -152,8 +152,29 @@ h3 {
 } */
 
 /* about me  */
+.aboutmeimg {
+    background-image: url(/assets/images/piano.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0c0e0f;
+    height: 70vh;
+    width: 100vw;
+}   
 
+.aboutme {
+    display: grid;
+    place-items: center;    
+}
 
+.aboutme p {
+    color: black;
+    backdrop-filter: blur(40%);
+    line-height: 1.5;
+    background: rgba(255, 255, 255, .7);
+    width: 60ch;
+    padding: 1em;  
+}
 
 /* footer */
 footer {
