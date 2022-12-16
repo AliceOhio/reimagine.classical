@@ -168,13 +168,18 @@ h3 {
 }
 
 .aboutme p {
-    color: black;
     backdrop-filter: blur(40%);
     line-height: 1.5;
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, .75);
     width: 60ch;
-    padding: 1em;  
+    padding: 1em; 
 }
+
+.aboutme p a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /* footer */
 footer {
