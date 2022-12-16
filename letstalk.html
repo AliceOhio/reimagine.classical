@@ -25,7 +25,77 @@
     </header>
 
    <section>Form to include name, email, pronoun (drop down list), music preferences checkboxes and text area
-    
+    <form class="getahold" method="POST" action="#">
+            
+        <div class="contactinfo">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="name" required
+                aria-label="name">
+            <br>
+           
+            <label for="pronoun">Pronoun(s):</label>
+                <input type="text" name="pronouns" id="pronoun" list="pronoun(s)" aria-label="pronoun(s)">
+            <datalist id="pronoun(s)"> 
+                <option value="he">he</option>
+                <option value="she">she</option>
+                <option value="they">they</option>
+                <option value="heshethey">he/she/they</option>
+                <option value="noanswer">prefer not to say</option>
+            </datalist>
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="email" required aria-label="email">
+                <br>
+        </fieldset>
+    </div>
+        <div class="musicstyles">
+            <legend>Music I like to listen to</legend>
+            <label for="sty.like">Music Styles I Like (check off all you like):</label>
+            <br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="classical">classical</label><br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="rock">rock</label><br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="bluesjazz">blues/jazz</label><br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="countryfolk">country/folk</label><br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="altrock">alternative rock</label><br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="opera">opera</label><br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="rap">rap</label><br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="hiphop">hiphop</label><br>
+
+            <input type="checkbox" name="classical" id="classical" value="classical">
+            <label for="house">house</label><br>
+
+        </div>
+
+        <div class="addlinfo">
+        <label for="addl">Would you like to share anything else?</label> <br>
+        <textarea name="addl" id="addl" cols="50" rows="5" placeholder="perhaps your favorite band or song"></textarea><br>
+
+        </div>
+
+        <div class="button">
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+
+
+
+
    </section>
     
 
