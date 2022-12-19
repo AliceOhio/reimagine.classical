@@ -203,7 +203,7 @@ textarea {
     background-color: #D5D1CB;
     height: 80vh;
     width: 100vw;
-}   
+}
 
 .letstalk {
     position: absolute;
@@ -229,7 +229,7 @@ textarea {
 
 .musicstyles {
     display: flex;
-    flex-flow: row-wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
@@ -237,13 +237,33 @@ textarea {
     align-items: center;
     resize: none;
 }
-
+/* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button */
 .button {
-    color: red;
-    border-color: orange;
-    text-transform: uppercase;
+    width: 10em;
+    text-align: center;
+/*   
+    text-transform: uppercase; */
+
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:rgba(213, 209, 203, 0.5)
 
 }
+
+.button:hover {
+    background-color:rgba(213, 209, 203, 0.8)
+}
+
+/* .button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+} */
 
 input::placeholder {
     font-style: italic;
