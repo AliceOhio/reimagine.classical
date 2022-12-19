@@ -203,14 +203,18 @@ textarea {
     background-color: #D5D1CB;
     height: 80vh;
     width: 100vw;
-    /* opacity: 0.2; */
 }   
 
 .letstalk {
     position: absolute;
-    color: inherit;
-    background: rgba(14, 14, 15, 0.4);
-    /* background-color: black; */
+    letter-spacing: 0.5px;
+    font-size: 110%;
+    bottom: 50%;
+    background: rgba(14, 14, 15, 0.8);
+    color: #D5D1CB;
+    width: 50vw;
+    height: 50%;
+    padding: 20px 100px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -218,17 +222,20 @@ textarea {
 
 .contactinfo {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .musicstyles {
-    width: 50vw;
     display: flex;
     flex-flow: row-wrap;
     justify-content: space-around;
+}
 
+.addlinfo {
+    align-items: center;
+    resize: none;
 }
 
 input::placeholder {
