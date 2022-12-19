@@ -175,6 +175,7 @@ h3 {
     background: rgba(255, 255, 255, .75);
     width: 60ch;
     padding: 1em; 
+    font-size: 120%;
 }
 
 .aboutme p a:link, a:visited {
@@ -206,8 +207,8 @@ textarea {
 }   
 
 .letstalk {
-   z-index: 6;
-
+    position: absolute;
+    align-items: center;
     height: 80vh;
     width: 100vw;
 }
