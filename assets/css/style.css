@@ -200,7 +200,7 @@ textarea {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #0c0e0f;
+    background-color: #D5D1CB;
     height: 80vh;
     width: 100vw;
     opacity: 0.2;
@@ -209,17 +209,18 @@ textarea {
 .letstalk {
     position: absolute;
     align-items: center;
-    height: 80vh;
-    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .contactinfo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row wrap;
     align-items: center;
     justify-content: center;
     /* height: 80vw;
-    width: 50vw; */
+    width: 50%; */
 }
 
 .musicstyles {
