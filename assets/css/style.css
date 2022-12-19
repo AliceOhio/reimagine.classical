@@ -238,6 +238,13 @@ textarea {
     resize: none;
 }
 
+.button {
+    color: red;
+    border-color: orange;
+    text-transform: uppercase;
+
+}
+
 input::placeholder {
     font-style: italic;
 }
