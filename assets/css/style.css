@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     color: #0B0A08;
     background-color: #D5D1CB;
+    overflow: hidden;
 }
 
 /* headings */
@@ -177,6 +178,18 @@ h3 {
 .aboutme p a:link, a:visited {
     text-decoration: none;
     color: inherit;
+}
+
+/* lets talk */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 

@@ -16,21 +16,20 @@
     <header>
         <nav>
             <ul id="navbar">
-                <li><a href="index.html" id="item">home</a></li>
-                <li><a href="classicalfacts.html" id="item">classical facts</a></li>
-                <li><a href="aboutme.html" id="item">about me</a></li>
-                <li><a href="letstalk.html" id="item" class="active">let's talk</a></li>
+                <li><a href="index.html" class="item">home</a></li>
+                <li><a href="classicalfacts.html" class="item">classical facts</a></li>
+                <li><a href="aboutme.html" class="item">about me</a></li>
+                <li><a href="letstalk.html" class="item active">let's talk</a></li>
             </ul>
         </nav>
     </header>
 
-   <section>Form to include name, email, pronoun (drop down list), music preferences checkboxes and text area
+   <div>
     <form class="getahold" method="POST" action="#">
             
         <div class="contactinfo">
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="name" required
-                aria-label="name">
+            <input type="text" name="name" id="name" placeholder="name" required aria-label="name">
             <br>
            
             <label for="pronoun">Pronoun(s):</label>
@@ -46,38 +45,36 @@
                 <label for="email">Email Address:</label>
                 <input type="email" name="email" id="email" placeholder="email" required aria-label="email">
                 <br>
-        </fieldset>
     </div>
-        <div class="musicstyles">
-            <legend>Music I like to listen to</legend>
-            <label for="sty.like">Music Styles I Like (check off all you like):</label>
-            <br>
 
+        <div class="musicstyles">
+           
+            <h4>  Music Styles I Like (check off all you like):</h4>
             <input type="checkbox" name="classical" id="classical" value="classical">
             <label for="classical">classical</label><br>
 
-            <input type="checkbox" name="classical" id="classical" value="classical">
+            <input type="checkbox" name="rock" id="rock" value="rock">
             <label for="rock">rock</label><br>
 
-            <input type="checkbox" name="classical" id="classical" value="classical">
+            <input type="checkbox" name="bluesjazz" id="bluesjazz" value="bluesjazz">
             <label for="bluesjazz">blues/jazz</label><br>
 
-            <input type="checkbox" name="classical" id="classical" value="classical">
+            <input type="checkbox" name="countryfolk" id="countryfolk" value="countryfolk">
             <label for="countryfolk">country/folk</label><br>
 
-            <input type="checkbox" name="classical" id="classical" value="classical">
+            <input type="checkbox" name="altrock" id="altrock" value="altrock">
             <label for="altrock">alternative rock</label><br>
 
-            <input type="checkbox" name="classical" id="classical" value="classical">
+            <input type="checkbox" name="opera" id="opera" value="opera">
             <label for="opera">opera</label><br>
 
-            <input type="checkbox" name="classical" id="classical" value="classical">
+            <input type="checkbox" name="rap" id="rap" value="rap">
             <label for="rap">rap</label><br>
 
-            <input type="checkbox" name="classical" id="classical" value="classical">
+            <input type="checkbox" name="hiphop" id="hiphop" value="hiphop">
             <label for="hiphop">hiphop</label><br>
 
-            <input type="checkbox" name="classical" id="classical" value="classical">
+            <input type="checkbox" name="house" id="house" value="house">
             <label for="house">house</label><br>
 
         </div>
@@ -96,7 +93,7 @@
 
 
 
-   </section>
+</div>
     
 
     <footer>
