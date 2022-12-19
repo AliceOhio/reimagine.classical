@@ -195,21 +195,30 @@ textarea {
 }
 
 .letstalkimg {
-    background-image: url(/assets/images/piano.jpg);
-    background-size: auto;
+    background-image: url(/assets/images/letstalkimg.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #0c0e0f;
     height: 80vh;
     width: 100vw;
+    opacity: 0.2;
 }   
 
 .letstalk {
+   z-index: 6;
+
+    height: 80vh;
+    width: 100vw;
+}
+
+.contactinfo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 70vw; */
+    /* height: 80vw;
+    width: 50vw; */
 }
 
 .musicstyles {
