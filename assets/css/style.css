@@ -192,6 +192,29 @@ textarea {
     margin: 0;
 }
 
+.letstalk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 70vw; */
+}
+
+.musicstyles {
+    width: 50vw;
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: space-around;
+
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+textarea::placeholder {
+    font-style: italic;
+}
 
 /* footer */
 footer {

@@ -24,10 +24,11 @@
         </nav>
     </header>
 
-   <div>
-    <form class="getahold" method="POST" action="#">
+   <div> 
+    <form class="letstalk" method="POST" action="#">
             
         <div class="contactinfo">
+            <h4>Your personal information:</h4>
             <label for="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="name" required aria-label="name">
             <br>
@@ -44,12 +45,11 @@
                 <br>
                 <label for="email">Email Address:</label>
                 <input type="email" name="email" id="email" placeholder="email" required aria-label="email">
-                <br>
+                <br><br>
     </div>
 
+    <h4>  Music Styles I Like (check off all you like):</h4>
         <div class="musicstyles">
-           
-            <h4>  Music Styles I Like (check off all you like):</h4>
             <input type="checkbox" name="classical" id="classical" value="classical">
             <label for="classical">classical</label><br>
 
@@ -78,9 +78,10 @@
             <label for="house">house</label><br>
 
         </div>
-
+        <br>
         <div class="addlinfo">
-        <label for="addl">Would you like to share anything else?</label> <br>
+            <h4>Would you like to share anything more about you?</h4>
+        <!-- <label for="addl"><em> Would you like to share anything else?</em></label> <br> -->
         <textarea name="addl" id="addl" cols="50" rows="5" placeholder="perhaps your favorite band or song"></textarea><br>
 
         </div>
