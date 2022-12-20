@@ -123,7 +123,7 @@ h3 {
     inset: 0;
     font-size: 2em;
     padding: 1em;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(213, 209, 203, .4);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -165,7 +165,7 @@ h3 {
 .aboutme p {
     backdrop-filter: invert(80%);
     line-height: 1.5;
-    background: rgba(255, 255, 255, .75);
+    background: rgba(213, 209, 203, .75);
     width: 60ch;
     padding: 1em; 
     font-size: 120%;
@@ -252,7 +252,7 @@ textarea {
 }
 
 /* .button:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    box-shadow: inset -2px -2px 3px rgba(213, 209, 203, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 } */
 
