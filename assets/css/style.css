@@ -15,7 +15,8 @@ body {
 }
 
 /* headings */
-h1, h2 {
+h1,
+h2 {
     font-family: 'Quicksand', sans-serif;
     text-transform: lowercase;
     letter-spacing: 5px;
@@ -110,7 +111,7 @@ h3 {
     width: 100%;
 }
 
-.img-wrapper > img {
+.img-wrapper>img {
     display: block;
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -118,7 +119,7 @@ h3 {
     object-position: center;
 }
 
-.img-wrapper > .content {
+.img-wrapper>.content {
     position: absolute;
     inset: 0;
     font-size: 2em;
@@ -129,20 +130,20 @@ h3 {
     align-items: center;
 }
 
-.img-wrapper > img, 
-.img-wrapper > .content {
+.img-wrapper>img,
+.img-wrapper>.content {
     transition: 200ms ease-in-out;
 }
 
-.img-wrapper > .content.fade {
+.img-wrapper>.content.fade {
     opacity: 0;
 }
 
-.img-wrapper:hover > .content.fade {
+.img-wrapper:hover>.content.fade {
     opacity: 1;
 }
 
-.img-wrapper:hover > img.blur {
+.img-wrapper:hover>img.blur {
     filter: blur(5px)
 }
 
@@ -155,11 +156,11 @@ h3 {
     background-color: #0c0e0f;
     height: 80vh;
     width: 100vw;
-}   
+}
 
 .aboutme {
     display: grid;
-    place-items: center;    
+    place-items: center;
 }
 
 .aboutme p {
@@ -167,11 +168,12 @@ h3 {
     line-height: 1.5;
     background: rgba(213, 209, 203, .75);
     width: 70ch;
-    padding: 1em; 
+    padding: 1em;
     font-size: 110%;
 }
 
-.aboutme p a:link, a:visited {
+.aboutme p a:link,
+a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -229,13 +231,13 @@ textarea {
 .addlinfo {
     align-items: center;
     resize: none;
-    
 }
+
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button */
 .button {
     width: 10em;
     text-align: center;
-/*  text-transform: uppercase; */
+    /*  text-transform: uppercase; */
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -244,11 +246,11 @@ textarea {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color:rgba(213, 209, 203, 0.5)
+    background-color: rgba(213, 209, 203, 0.5)
 }
 
 .button:hover {
-    background-color:rgba(213, 209, 203, 0.8)
+    background-color: rgba(213, 209, 203, 0.8)
 }
 
 /* .button:active {
@@ -272,44 +274,44 @@ footer {
     width: 100%;
     text-align: center;
     height: auto;
-  }
+}
 
-  .social-networks {
+.social-networks {
     text-align: center;
-  }
+}
 
-  .social-networks > li {
+.social-networks>li {
     display: inline;
-  }
+}
 
-  .social-networks i {
+.social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 2%;
     color: #453d31;
-  }
+}
 
-  /* media queries */
+/* media queries */
 
-  /* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 1200px wide and down */
 
-  @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .body {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
-      }
-  
-    .img-wrapper > .content {
-    font-size: 18px;
+    }
+
+    .img-wrapper>.content {
+        font-size: 18px;
     }
 
     .hero-image h1 {
         font-size: 400%;
         letter-spacing: 5px;
     }
-    
+
     #brandinginfo h2 {
         font-size: 150%;
     }
@@ -319,52 +321,62 @@ footer {
     }
 }
 
-  /* For medium screen sizes 800px and down */
+/* For medium screen sizes 800px and down */
 
-  @media screen and (max-width: 800px) and (min-width: 601px) {
-    
-  .grid, .img-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
+@media screen and (max-width: 800px) and (min-width: 601px) {
+    .body {
+        overflow: scroll;
+    }
 
-  .img-wrapper > .content {
-    font-size: 16px;
-}
-.hero-image h1 {
-    font-size: 350%;
-    letter-spacing: 5px;
-}
+    .grid,
+    .img-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-#brandinginfo h2 {
-    font-size: 120%;
-}
+    .img-wrapper>.content {
+        font-size: 16px;
+    }
 
-.aboutme p {
-    font-size: 90%;
-}
+    .hero-image h1 {
+        font-size: 350%;
+        letter-spacing: 5px;
+    }
+
+    #brandinginfo h2 {
+        font-size: 120%;
+    }
+
+    .aboutme p {
+        font-size: 90%;
+    }
 }
 
 /* For small screen sizes 600px and down */
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+    .body {
+        overflow: scroll;
+    }
     
-  .grid, .img-wrapper {
-    grid-template-columns: repeat(1, 1fr);
-  }
+    .grid,
+    .img-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-  .img-wrapper > .content {
-    font-size: 12px;
-}
-.hero-image h1 {
-    font-size: 250%;
-    letter-spacing: 5px;
-}
+    .img-wrapper>.content {
+        font-size: 12px;
+    }
 
-#brandinginfo h2 {
-    font-size: 100%;
-}
+    .hero-image h1 {
+        font-size: 250%;
+        letter-spacing: 5px;
+    }
 
-.aboutme p {
-    font-size: 60%;
-}
+    #brandinginfo h2 {
+        font-size: 100%;
+    }
+
+    .aboutme p {
+        font-size: 60%;
+    }
 }
