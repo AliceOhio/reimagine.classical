@@ -271,7 +271,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    height: 150px;
+    height: auto;
   }
 
   .social-networks {
@@ -304,11 +304,20 @@ footer {
     .img-wrapper > .content {
     font-size: 18px;
     }
+
+    .hero-image h1 {
+        font-size: 400%;
+        letter-spacing: 5px;
+    }
+    
+    #brandinginfo h2 {
+        font-size: 150%;
+    }
 }
 
   /* For medium screen sizes 800px and down */
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 800px) and (min-width: 601px) {
     
   .grid, .img-wrapper {
     grid-template-columns: repeat(2, 1fr);
@@ -316,6 +325,14 @@ footer {
 
   .img-wrapper > .content {
     font-size: 16px;
+}
+.hero-image h1 {
+    font-size: 350%;
+    letter-spacing: 5px;
+}
+
+#brandinginfo h2 {
+    font-size: 120%;
 }
 }
 
@@ -329,5 +346,13 @@ footer {
 
   .img-wrapper > .content {
     font-size: 12px;
+}
+.hero-image h1 {
+    font-size: 250%;
+    letter-spacing: 5px;
+}
+
+#brandinginfo h2 {
+    font-size: 100%;
 }
 }
