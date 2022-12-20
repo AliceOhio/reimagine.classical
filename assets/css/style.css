@@ -166,9 +166,9 @@ h3 {
     backdrop-filter: invert(80%);
     line-height: 1.5;
     background: rgba(213, 209, 203, .75);
-    width: 60ch;
+    width: 70ch;
     padding: 1em; 
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .aboutme p a:link, a:visited {
@@ -313,6 +313,10 @@ footer {
     #brandinginfo h2 {
         font-size: 150%;
     }
+
+    .aboutme p {
+        font-size: 100%;
+    }
 }
 
   /* For medium screen sizes 800px and down */
@@ -334,6 +338,10 @@ footer {
 #brandinginfo h2 {
     font-size: 120%;
 }
+
+.aboutme p {
+    font-size: 90%;
+}
 }
 
 /* For small screen sizes 600px and down */
@@ -354,5 +362,9 @@ footer {
 
 #brandinginfo h2 {
     font-size: 100%;
+}
+
+.aboutme p {
+    font-size: 60%;
 }
 }
