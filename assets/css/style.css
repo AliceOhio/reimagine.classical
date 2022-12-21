@@ -69,7 +69,7 @@ h3 {
 /* hero image */
 
 .hero-image {
-    background-image: url(/assets/images/hero-image2.jpg);
+    background-image: url(../images/hero-image2.webp);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ h3 {
 
 /* about me  */
 .aboutmeimg {
-    background-image: url(/assets/images/piano.jpg);
+    background-image: url(../images/piano.webp);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ textarea {
 }
 
 .letstalkimg {
-    background-image: url(/assets/images/letstalkimg.jpg);
+    background-image: url(../images/letstalkimg.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
