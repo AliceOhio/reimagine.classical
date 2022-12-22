@@ -288,9 +288,9 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100dvw;
     text-align: center;
-    height: auto;
+    height: 8dvh;
 }
 
 .social-networks {
@@ -298,11 +298,13 @@ footer {
 }
 
 .social-networks>li {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .social-networks i {
-    font-size: 100%;
+    font-size: 200%;
     margin: 1%;
     padding: 2%;
     color: #453d31;
