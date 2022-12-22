@@ -197,7 +197,7 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #D5D1CB;
-    height: 80dvh;
+    height: 85dvh;
     width: 100dvw;
 }
 
@@ -208,8 +208,8 @@ textarea {
     bottom: 50%;
     background: rgba(14, 14, 15, 0.8);
     color: #D5D1CB;
-    width: 50vw;
-    height: 50%;
+    width: 50dvw;
+    height: 70dvh;
     padding: 20px 100px;
     top: 50%;
     left: 50%;
@@ -350,6 +350,10 @@ footer {
     .aboutme p {
         font-size: 90%;
     }
+
+    .letstalk {
+        font-size: 16px;
+    }
 }
 
 /* For small screen sizes 600px and down */
@@ -379,5 +383,9 @@ footer {
 
     .aboutme p {
         font-size: 60%;
+    }
+
+    .letstalk {
+        font-size: 12px;
     }
 }
