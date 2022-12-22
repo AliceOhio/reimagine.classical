@@ -25,19 +25,19 @@
         </nav>
     </header>
 
-   <div class="letstalkimg"> 
-    <form class="letstalk" method="POST" action="https://formdump.codeinstitute.net/">     
-        <h4>Your personal information:</h4>
-        <div class="contactinfo">    
-            <label for="pronoun">Pronoun(s):</label>
+    <div class="letstalkimg">
+        <form class="letstalk" method="POST" action="https://formdump.codeinstitute.net/">
+            <h4>Your personal information:</h4>
+            <div class="contactinfo">
+                <label for="pronoun">Pronoun(s):</label>
                 <input type="text" name="pronouns" id="pronoun" list="pronoun(s)" aria-label="pronoun(s)">
-            <datalist id="pronoun(s)"> 
-                <option value="he">he</option>
-                <option value="she">she</option>
-                <option value="they">they</option>
-                <option value="heshethey">he/she/they</option>
-                <option value="noanswer">prefer not to say</option>
-            </datalist>
+                <datalist id="pronoun(s)">
+                    <option value="he">he</option>
+                    <option value="she">she</option>
+                    <option value="they">they</option>
+                    <option value="heshethey">he/she/they</option>
+                    <option value="noanswer">prefer not to say</option>
+                </datalist>
                 <br>
                 <label for="name">Name:</label>
                 <input type="text" name="name" id="name" placeholder="name" required aria-label="name">
@@ -45,62 +45,53 @@
                 <label for="email">Email Address:</label>
                 <input type="email" name="email" id="email" placeholder="email" required aria-label="email">
                 <br><br>
+            </div>
+            <h4> Music Styles I Like (check off all you like):</h4>
+            <div class="musicstyles">
+                <input type="checkbox" name="classical" id="classical" value="classical">
+                <label for="classical">classical</label><br>
 
+                <input type="checkbox" name="rock" id="rock" value="rock">
+                <label for="rock">rock</label><br>
+
+                <input type="checkbox" name="bluesjazz" id="bluesjazz" value="bluesjazz">
+                <label for="bluesjazz">blues/jazz</label><br>
+
+                <input type="checkbox" name="countryfolk" id="countryfolk" value="countryfolk">
+                <label for="countryfolk">country/folk</label><br>
+
+                <input type="checkbox" name="altrock" id="altrock" value="altrock">
+                <label for="altrock">alternative rock</label><br>
+
+                <input type="checkbox" name="opera" id="opera" value="opera">
+                <label for="opera">opera</label><br>
+
+                <input type="checkbox" name="rap" id="rap" value="rap">
+                <label for="rap">rap</label><br>
+
+                <input type="checkbox" name="hiphop" id="hiphop" value="hiphop">
+                <label for="hiphop">hiphop</label><br>
+
+                <input type="checkbox" name="house" id="house" value="house">
+                <label for="house">house</label><br>
+            </div>
+            <br>
+            <div class="addlinfo">
+                <h4>Would you like to share anything more about you?</h4>
+                <textarea name="addl" id="addl" cols="50" rows="5"
+                    placeholder="perhaps your favorite band or song"></textarea><br>
+            </div>
+            <div class="button">
+                <button type="submit"><strong>submit</strong></button>
+            </div>
+        </form>
     </div>
-
-    <h4>  Music Styles I Like (check off all you like):</h4>
-        <div class="musicstyles">
-            <input type="checkbox" name="classical" id="classical" value="classical">
-            <label for="classical">classical</label><br>
-
-            <input type="checkbox" name="rock" id="rock" value="rock">
-            <label for="rock">rock</label><br>
-
-            <input type="checkbox" name="bluesjazz" id="bluesjazz" value="bluesjazz">
-            <label for="bluesjazz">blues/jazz</label><br>
-
-            <input type="checkbox" name="countryfolk" id="countryfolk" value="countryfolk">
-            <label for="countryfolk">country/folk</label><br>
-
-            <input type="checkbox" name="altrock" id="altrock" value="altrock">
-            <label for="altrock">alternative rock</label><br>
-
-            <input type="checkbox" name="opera" id="opera" value="opera">
-            <label for="opera">opera</label><br>
-
-            <input type="checkbox" name="rap" id="rap" value="rap">
-            <label for="rap">rap</label><br>
-
-            <input type="checkbox" name="hiphop" id="hiphop" value="hiphop">
-            <label for="hiphop">hiphop</label><br>
-
-            <input type="checkbox" name="house" id="house" value="house">
-            <label for="house">house</label><br>
-
-        </div>
-        <br>
-        <div class="addlinfo">
-            <h4>Would you like to share anything more about you?</h4>
-        <textarea name="addl" id="addl" cols="50" rows="5" placeholder="perhaps your favorite band or song"></textarea><br>
-
-        </div>
-
-        <div class="button">
-        <button type="submit"><strong>submit</strong></button>
-    </div>
-    </form>
-
-
-
-
-</div>
-    
-
     <footer>
         <ul class="social-networks">
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instragram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
+                    aria-label="Visit our Instragram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
                 <a href="https://music.apple.com" target="_blank" rel="noopener"
                     aria-label="Visit our Apple Music page (opens in a new tab)"><i class="fa-brands fa-apple"></i></a>
                 <a href="https://spotify.com" target="_blank" rel="noopener"
@@ -111,7 +102,6 @@
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/fbb713651b.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

@@ -34,10 +34,10 @@ h3 {
 
 /* navigation links */
 #navbar {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 1px;
-    margin: 0.5vw 1vw;
-    height: 4.5vh;
+    margin: 0.5vw 1dvw;
+    height: 4.5dvh;
     /* line-height: 40px; */
     display: flex;
     flex-direction: row;
@@ -74,8 +74,8 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #0c0e0f;
-    height: 70vh;
-    width: 100vw;
+    height: 70dvh;
+    width: 100dvw;
 }
 
 .hero-image h1 {
@@ -85,7 +85,7 @@ h3 {
     background: rgb(14, 14, 15);
     background: rgba(14, 14, 15, 0.4);
     color: #D5D1CB;
-    width: 70vw;
+    width: 70dvw;
     padding: 20px 100px;
 }
 
@@ -101,8 +101,8 @@ h3 {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
-    height: 80vh;
-    width: 100vw;
+    height: 80dvh;
+    width: 100dvw;
 }
 
 .img-wrapper {
@@ -154,8 +154,8 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #0c0e0f;
-    height: 80vh;
-    width: 100vw;
+    height: 80dvh;
+    width: 100dvw;
 }
 
 .aboutme {
@@ -168,6 +168,7 @@ h3 {
     line-height: 1.5;
     background: rgba(213, 209, 203, .75);
     width: 70ch;
+    height: auto;
     padding: 1em;
     font-size: 110%;
 }
@@ -196,8 +197,8 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #D5D1CB;
-    height: 80vh;
-    width: 100vw;
+    height: 80dvh;
+    width: 100dvw;
 }
 
 .letstalk {
@@ -285,7 +286,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 200%;
+    font-size: 100%;
     margin: 1%;
     padding: 2%;
     color: #453d31;
@@ -357,7 +358,7 @@ footer {
     .body {
         overflow: scroll;
     }
-    
+
     .grid,
     .img-wrapper {
         grid-template-columns: repeat(1, 1fr);
