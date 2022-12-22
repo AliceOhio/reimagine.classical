@@ -245,6 +245,10 @@ textarea {
     justify-content: space-around;
 }
 
+/* .musicstyles > input {
+    vertical-align: text-bottom;
+} */
+
 .addlinfo {
     align-items: center;
     resize: none;
