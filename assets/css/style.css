@@ -218,6 +218,10 @@ textarea {
 
 }
 
+#pronoun {
+    width: 10dvw;
+
+}
 .contactinfo {
     display: flex;
     flex-direction: column;
