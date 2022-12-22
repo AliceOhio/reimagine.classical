@@ -208,19 +208,21 @@ textarea {
     bottom: 50%;
     background: rgba(14, 14, 15, 0.8);
     color: #D5D1CB;
-    width: 50dvw;
+    width: 70dvw;
     height: 70dvh;
     padding: 20px 100px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 }
 
 .contactinfo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .musicstyles {
