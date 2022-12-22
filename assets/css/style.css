@@ -114,6 +114,7 @@ h3 {
 .img-wrapper>img {
     display: block;
     width: 100%;
+    height: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center;
@@ -367,7 +368,7 @@ footer {
 
     .grid,
     .img-wrapper {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 0.5fr);
     }
 
     .img-wrapper>.content {
