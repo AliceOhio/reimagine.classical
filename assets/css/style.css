@@ -136,8 +136,8 @@ h3 {
     transition: 200ms ease-in-out;
 } */
 
-.img-wrapper>.content.fade {
-    opacity: 1;
+.img-wrapper>img {
+    filter: blur(5px)
 }
 
 /* .img-wrapper:hover>.content.fade {
@@ -425,6 +425,9 @@ footer {
     transition: 200ms ease-in-out;
 }
 
+.img-wrapper>img {
+    filter: none;
+}
 .img-wrapper>.content.fade {
     opacity: 0;
 }
