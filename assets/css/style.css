@@ -80,6 +80,7 @@ h3 {
 
 .hero-image h1 {
     font-size: 500%;
+    text-align: left;
     letter-spacing: 10px;
     bottom: 50%;
     background: rgba(14, 14, 15, 0.4);
@@ -364,8 +365,8 @@ footer {
     }
 
     .hero-image h1 {
-        font-size: 350%;
-        letter-spacing: 5px;
+        font-size: 250%;
+        letter-spacing: 4px;
     }
 
     #brandinginfo h2 {
@@ -410,8 +411,8 @@ footer {
     }
 
     .hero-image h1 {
-        font-size: 200%;
-        letter-spacing: 5px;
+        font-size: 150%;
+        letter-spacing: 2px;
     }
 
     #brandinginfo h2 {
