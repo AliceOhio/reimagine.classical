@@ -130,7 +130,7 @@ h3 {
     justify-content: space-around;
     align-items: center;
 }
-
+/* 
 .img-wrapper>img,
 .img-wrapper>.content {
     transition: 200ms ease-in-out;
@@ -138,15 +138,15 @@ h3 {
 
 .img-wrapper>.content.fade {
     opacity: 0;
-}
+} */
 
-.img-wrapper:hover>.content.fade {
+/* .img-wrapper:hover>.content.fade {
     opacity: 1;
 }
 
 .img-wrapper:hover>img.blur {
     filter: blur(5px)
-}
+} */
 
 /* about me  */
 .aboutmeimg {
@@ -416,5 +416,23 @@ footer {
 
     .letstalk {
         font-size: 12px;
+    }
+}
+
+@media (hover: hover) {
+.img-wrapper>img,
+.img-wrapper>.content {
+    transition: 200ms ease-in-out;
+}
+
+.img-wrapper>.content.fade {
+    opacity: 0;
+}
+.img-wrapper:hover>.content.fade {
+        opacity: 1;
+    }
+    
+    .img-wrapper:hover>img.blur {
+        filter: blur(5px)
     }
 }
