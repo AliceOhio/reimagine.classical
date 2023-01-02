@@ -392,14 +392,12 @@ footer {
         font-size: 50%;
     }
 
-    .aboutme p {
-        font-size: 80%;
-        width: 50ch;
-        
+    footer {
+        height: 4dvh;
     }
 
     .social-networks i {
-        font-size: 100%;
+        font-size: 70%;
     }
 
     .grid,
@@ -412,16 +410,17 @@ footer {
     }
 
     .hero-image h1 {
-        font-size: 250%;
+        font-size: 200%;
         letter-spacing: 5px;
     }
 
     #brandinginfo h2 {
-        font-size: 100%;
+        font-size: 70%;
     }
 
     .aboutme p {
         font-size: 60%;
+        width: 50ch;
     }
 
     .letstalk {
