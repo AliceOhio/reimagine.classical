@@ -32,6 +32,14 @@ h3 {
     font-size: 150%;
 }
 
+h4 {
+    font-family: 'Martel', sans-serif;
+    color: #D5D1CB;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 600;
+}
+
 /* navigation links */
 #navbar {
     font-size: 100%;
@@ -242,8 +250,13 @@ textarea {
 
 .musicstyles {
     display: flex;
+    align-items: baseline;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.musicstyles label {
+    font-size: 100%;
 }
 
 /* .musicstyles > input {
