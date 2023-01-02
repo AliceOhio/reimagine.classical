@@ -82,10 +82,9 @@ h3 {
     font-size: 500%;
     letter-spacing: 10px;
     bottom: 50%;
-    background: rgb(14, 14, 15);
     background: rgba(14, 14, 15, 0.4);
     color: #D5D1CB;
-    width: 70dvw;
+    width: 100dvw;
     padding: 20px 100px;
 }
 
