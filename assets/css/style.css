@@ -392,6 +392,12 @@ footer {
         font-size: 50%;
     }
 
+    .aboutme p {
+        font-size: 80%;
+        width: 50ch;
+        
+    }
+
     .social-networks i {
         font-size: 100%;
     }
