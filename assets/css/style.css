@@ -392,6 +392,10 @@ footer {
         font-size: 50%;
     }
 
+    .social-networks i {
+        font-size: 100%;
+    }
+
     .grid,
     .img-wrapper {
         grid-template-columns: repeat(2, 0.5fr);
