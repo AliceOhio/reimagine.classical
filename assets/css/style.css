@@ -137,7 +137,7 @@ h3 {
 } */
 
 .img-wrapper>.content.fade {
-    opacity: 0;
+    opacity: 1;
 }
 
 /* .img-wrapper:hover>.content.fade {
