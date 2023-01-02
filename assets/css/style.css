@@ -219,6 +219,15 @@ textarea {
     background-color: #D5D1CB;
     height: 85dvh;
     width: 100dvw;
+    text-transform: lowercase;
+}
+
+.letstalkimg h1 {
+    font-family: 'Martel', sans-serif;
+    color: #D5D1CB;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 600;
 }
 
 .letstalk {
@@ -238,8 +247,8 @@ textarea {
 
 #pronoun {
     width: 10dvw;
-
 }
+
 .contactinfo {
     display: flex;
     flex-direction: column;
@@ -259,39 +268,35 @@ textarea {
     font-size: 100%;
 }
 
-/* .musicstyles > input {
-    vertical-align: text-bottom;
-} */
-
 .addlinfo {
+    text-align: center; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    resize: none;
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button */
 .button {
-    width: 10em;
+    background-color: rgba(213, 209, 203, .8);
+    width: 12em;
     text-align: center;
-    /*  text-transform: uppercase; */
-    border: 0;
     line-height: 2.5;
-    padding: 0 20px;
+    padding: 10px;
     font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgba(213, 209, 203, 0.5)
+    border-radius: 20px;
+    
+}
+
+.button h1 {
+    color: #0B0A08;
 }
 
 .button:hover {
     background-color: rgba(213, 209, 203, 0.8)
 }
-
-/* .button:active {
-    box-shadow: inset -2px -2px 3px rgba(213, 209, 203, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-} */
 
 input::placeholder {
     font-style: italic;
