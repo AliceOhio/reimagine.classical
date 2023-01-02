@@ -385,6 +385,10 @@ footer {
         overflow: scroll;
     }
 
+    #navbar {
+        font-size: 50%;
+    }
+
     .grid,
     .img-wrapper {
         grid-template-columns: repeat(2, 0.5fr);
