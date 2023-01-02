@@ -93,6 +93,7 @@ h3 {
 
 #brandinginfo h2 {
     padding: 10px 100px;
+    text-align: right;
 }
 
 /* code from WebDevSimplified https://github.com/WebDevSimplified/css-image-hover-effect and Kevin Powell*/
