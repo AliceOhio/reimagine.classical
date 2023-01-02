@@ -130,15 +130,15 @@ h3 {
     justify-content: space-around;
     align-items: center;
 }
-/* 
-.img-wrapper>img,
+
+/* .img-wrapper>img,
 .img-wrapper>.content {
     transition: 200ms ease-in-out;
-}
+} */
 
 .img-wrapper>.content.fade {
     opacity: 0;
-} */
+}
 
 /* .img-wrapper:hover>.content.fade {
     opacity: 1;
