@@ -222,7 +222,7 @@ textarea {
     text-transform: lowercase;
 }
 
-.letstalkimg h2 {
+.letstalkimg h1, h2 {
     font-family: 'Martel', sans-serif;
     color: #D5D1CB;
     text-align: center;
@@ -286,7 +286,7 @@ textarea {
     text-align: center;
     line-height: 2.5;
     padding: 6px;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     border-radius: 10px;   
 }
 
