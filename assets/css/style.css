@@ -74,8 +74,9 @@ h4 {
     border-bottom: 1.5px solid #0B0A08;
 }
 
-/* hero image */
+/* home page */
 
+/* hero image */
 .hero-image {
     background-image: url(../images/hero-image2.webp);
     background-size: auto;
@@ -98,7 +99,6 @@ h4 {
 }
 
 /* branding info */
-
 #brandinginfo h2 {
     font-family: 'Quicksand', sans-serif;
     text-transform: lowercase;
@@ -109,13 +109,23 @@ h4 {
     text-align: right;
 }
 
+/* classical facts page */
+.classicalfacts h1 {
+    color: #D5D1CB;
+    background: rgba(14, 14, 15, 0.8);
+    padding: 1em;
+    height: 4.5dvh;
+    width: 100dvw;
+    text-align: center;
+}
 /* code (inspired) from WebDevSimplified https://github.com/WebDevSimplified/css-image-hover-effect and Kevin Powell*/
 
 .grid {
+    padding: 0.5em;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
-    height: 80dvh;
+    height: 70dvh;
     width: 100dvw;
 }
 
@@ -235,7 +245,15 @@ textarea {
     text-transform: lowercase;
 }
 
-.letstalkimg h1, h2 {
+.letstalkimg h1 {
+    color: #D5D1CB;
+    background: rgba(14, 14, 15, 0.8);
+    padding: 1em;
+    height: 4.5dvh;
+    text-align: center;
+}
+
+.letstalkimg h2 {
     font-family: 'Martel', sans-serif;
     color: #D5D1CB;
     text-align: center;
