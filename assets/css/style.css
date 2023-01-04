@@ -48,7 +48,7 @@ h4 {
     height: 4.5dvh;
     /* line-height: 40px; */
     display: flex;
-    flex-direction: row;
+    flex: row wrap;
     justify-content: flex-end;
 }
 
@@ -100,6 +100,11 @@ h4 {
 /* branding info */
 
 #brandinginfo h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    color: #453d31;
+    font-size: 200%;
     padding: 10px 100px;
     text-align: right;
 }
