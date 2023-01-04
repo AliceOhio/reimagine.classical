@@ -239,7 +239,7 @@ textarea {
     color: #D5D1CB;
     width: 70dvw;
     height: 70dvh;
-    padding: 20px 100px;
+    padding: 2px 100px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -251,10 +251,11 @@ textarea {
 
 .contactinfo {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex: row wrap;
+    align-content: normal;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: max-width;
 }
 
 .musicstyles {
@@ -281,16 +282,15 @@ textarea {
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button */
 .button {
     background-color: rgba(213, 209, 203, .8);
-    width: 12em;
+    width: 10em;
     text-align: center;
     line-height: 2.5;
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 20px;
-    
+    padding: 6px;
+    font-size: 0.5rem;
+    border-radius: 10px;   
 }
 
-.button h1 {
+.button h2 {
     color: #0B0A08;
 }
 
@@ -300,10 +300,12 @@ textarea {
 
 input::placeholder {
     font-style: italic;
+    text-align: center;
 }
 
 textarea::placeholder {
     font-style: italic;
+    text-align: center;
 }
 
 /* footer */
@@ -398,6 +400,28 @@ footer {
     .letstalk {
         font-size: 16px;
     }
+
+    .contactinfo {
+        font-size: 80%;
+        width: 70dvw;
+        flex-wrap: wrap;
+    }
+
+    .letstalkimg h2 {
+        font-size: 100%;
+    }
+
+    .musicstyles {
+        font-size: 80%;
+    }
+    
+    .musicstyles label {
+        font-size: 80%;
+    }
+    
+    .addlinfo {
+        font-size: 80%;
+    }
 }
 
 /* For small screen sizes 650px and down */
@@ -445,6 +469,27 @@ footer {
 
     .letstalk {
         font-size: 12px;
+    }
+
+    .contactinfo {
+        display: grid;
+        font-size: 80%;
+    }
+
+    .letstalkimg h2 {
+        font-size: 100%;
+    }
+
+    .musicstyles {
+        font-size: 80%;
+    }
+    
+    .musicstyles label {
+        font-size: 80%;
+    }
+    
+    .addlinfo {
+        font-size: 80%;
     }
 }
 
