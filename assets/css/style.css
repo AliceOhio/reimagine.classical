@@ -104,7 +104,7 @@ h4 {
     text-align: right;
 }
 
-/* code from WebDevSimplified https://github.com/WebDevSimplified/css-image-hover-effect and Kevin Powell*/
+/* code (inspired) from WebDevSimplified https://github.com/WebDevSimplified/css-image-hover-effect and Kevin Powell*/
 
 .grid {
     display: grid;
@@ -132,7 +132,7 @@ h4 {
 .img-wrapper>.content {
     position: absolute;
     inset: 0;
-    font-size: 2em;
+    font-size: 1.8em;
     padding: 1em;
     background: rgba(213, 209, 203, .4);
     display: flex;
@@ -363,6 +363,10 @@ footer {
         font-size: 150%;
     }
 
+    .classicalfacts h1 {
+        font-size: 180%;
+    }
+
     .aboutme p {
         font-size: 100%;
     }
@@ -391,6 +395,10 @@ footer {
 
     #brandinginfo h2 {
         font-size: 120%;
+    }
+
+    .classicalfacts h1 {
+        font-size: 140%;
     }
 
     .aboutme p {
@@ -460,6 +468,10 @@ footer {
     #brandinginfo h2 {
         font-size: 70%;
         padding: 5px 40px;
+    }
+
+    .classicalfacts h1 {
+        font-size: 120%;
     }
 
     .aboutme p {
