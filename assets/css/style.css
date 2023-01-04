@@ -173,6 +173,14 @@ h4 {
     width: 100dvw;
 }
 
+.aboutmeimg h1 {
+    color: #D5D1CB;
+    background: rgba(14, 14, 15, 0.4);
+    padding: 1em;
+    width: 100dvw;
+    text-align: center;
+}
+
 .aboutme {
     display: grid;
     place-items: center;
@@ -372,6 +380,10 @@ footer {
         font-size: 180%;
     }
 
+    .aboutme h1 {
+        font-size: 180%;
+    }
+
     .aboutme p {
         font-size: 100%;
     }
@@ -403,6 +415,10 @@ footer {
     }
 
     .classicalfacts h1 {
+        font-size: 140%;
+    }
+
+    .aboutmeimg h1 {
         font-size: 140%;
     }
 
@@ -476,6 +492,10 @@ footer {
     }
 
     .classicalfacts h1 {
+        font-size: 120%;
+    }
+
+    .aboutmeimg h1 {
         font-size: 120%;
     }
 
