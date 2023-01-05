@@ -405,6 +405,10 @@ footer {
     .aboutme p {
         font-size: 100%;
     }
+
+    .letstalkimg h1 {
+        font-size: 180%;
+    }
 }
 
 /* For medium screen sizes 800px and down */
@@ -442,6 +446,10 @@ footer {
 
     .aboutme p {
         font-size: 85%;
+    }
+
+    .letstalkimg h1 {
+        font-size: 140%;
     }
 
     .letstalk {
@@ -558,9 +566,11 @@ footer {
 .img-wrapper>img {
     filter: none;
 }
+
 .img-wrapper>.content.fade {
     opacity: 0;
 }
+
 .img-wrapper:hover>.content.fade {
         opacity: 1;
     }
@@ -615,16 +625,23 @@ footer {
     }
 
     .classicalfacts h1 {
-        font-size: 120%;
+        font-size: 100%;
+        height: 2dvh;
     }
 
     .aboutmeimg h1 {
-        font-size: 60%;
+        font-size: 100%;
+        height: 2dvh;
     }
 
     .aboutme p {
         font-size: 60%;
         width: 100ch;
+    }
+
+    .letstalkimg h1 {
+        font-size: 100%;
+        height: 2dvh;
     }
 
     .letstalk {
@@ -633,11 +650,6 @@ footer {
 
     .contactinfo {
         font-size: 80%;
-    }
-
-    .letstalkimg h1 {
-        font-size: 100%;
-        height: 2dvh;
     }
     
     .letstalkimg h2 {
