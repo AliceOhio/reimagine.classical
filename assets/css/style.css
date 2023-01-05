@@ -187,6 +187,7 @@ h4 {
     color: #D5D1CB;
     background: rgba(14, 14, 15, 0.4);
     padding: 1em;
+    height: 4.5dvh;
     width: 100dvw;
     text-align: center;
 }
@@ -240,9 +241,23 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #D5D1CB;
-    height: 85dvh;
+    height: 80dvh;
     width: 100dvw;
-    text-transform: lowercase;
+}
+
+.letstalk {
+    position: absolute;
+    letter-spacing: 0.5px;
+    font-size: 110%;
+    /* bottom: 50%; */
+    background: rgba(14, 14, 15, 0.8);
+    color: #D5D1CB;
+    width: 70dvw;
+    height: 70dvh;
+    padding: 0 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .letstalkimg h1 {
@@ -259,21 +274,6 @@ textarea {
     text-align: center;
     font-size: 120%;
     font-weight: 600;
-}
-
-.letstalk {
-    position: absolute;
-    letter-spacing: 0.5px;
-    font-size: 110%;
-    bottom: 50%;
-    background: rgba(14, 14, 15, 0.8);
-    color: #D5D1CB;
-    width: 70dvw;
-    height: 70dvh;
-    padding: 2px 100px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #pronoun {
@@ -642,10 +642,14 @@ footer {
     .letstalkimg h1 {
         font-size: 100%;
         height: 2dvh;
+        /* padding-top: 0%; */
     }
 
     .letstalk {
         font-size: 12px;
+        width: 60dvw;
+        height: 68dvh;
+        /* padding-top: 0%; */
     }
 
     .contactinfo {
@@ -653,7 +657,7 @@ footer {
     }
     
     .letstalkimg h2 {
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .musicstyles {
