@@ -246,14 +246,14 @@ textarea {
 }
 
 .letstalk {
-    position: absolute;
+    position: relative;
     letter-spacing: 0.5px;
     font-size: 110%;
-    /* bottom: 50%; */
+    bottom: 50%;
     background: rgba(14, 14, 15, 0.8);
     color: #D5D1CB;
     width: 70dvw;
-    height: 70dvh;
+    height: 80dvh;
     padding: 0 150px;
     top: 50%;
     left: 50%;
