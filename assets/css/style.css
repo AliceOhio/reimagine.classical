@@ -250,7 +250,7 @@ textarea {
     letter-spacing: 0.5px;
     font-size: 110%;
     bottom: 50%;
-    background: rgba(14, 14, 15, 0.6);
+    background: rgba(14, 14, 15, 0.7);
     color: #D5D1CB;
     width: 70dvw;
     height: 80dvh;
@@ -582,7 +582,7 @@ footer {
 
 /* For small screens in landscape mode 400px wide and down */
 
-@media screen and (max-width: 900px) and (orientation: landscape) {
+@media screen and (max-width: 932px) and (orientation: landscape) {
 
 
     .body {
