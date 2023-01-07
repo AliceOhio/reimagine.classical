@@ -82,11 +82,44 @@ In this section, you need to convince the assessor that you have conducted enoug
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 ### Validator Testing
-•	HTML
-o	No errors were returned when passing through the official W3C validator
-•	CSS
-o	No errors were found when passing through the official (Jigsaw) validator
+- HTML
+    - No errors were returned when passing through the official W3C validator
+    IMAGE
+- CSS
+    - No errors were found when passing through the official (Jigsaw) validator
+    IMAGE
+
+### WAVE Testing
+- home page
+    - No errors or alers were returned when passing through the offical web accessibility evaluation tool.
+    IMAGE
+- classical facts
+    - No errors or alers were returned when passing through the offical web accessibility evaluation tool.
+    IMAGE
+- about me 
+    - No errors or alers were returned when passing through the offical web accessibility evaluation tool.
+    IMAGE
+- let's talk
+    - No errors or alers were returned when passing through the offical web accessibility evaluation tool.
+    IMAGE
+
+### Lighthouse Testing
+- The entire website scored very well throughout, with accessibility consistently at 100%.
+
+- home page
+    - No errors or alers were returned when passing through the offical Lighthouse tool.
+    IMAGE
+- classical facts
+    - No errors or alers were returned when passing through the offical Lighthouse tool.
+    IMAGE
+- about me 
+    - No errors or alers were returned when passing through the offical Lighthouse tool.
+    IMAGE
+- let's talk
+    - No errors or alers were returned when passing through the offical Lighthouse tool.
+    IMAGE
 
 ###Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
