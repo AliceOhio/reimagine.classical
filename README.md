@@ -108,18 +108,17 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Lighthouse Testing
 - The entire website scored very well throughout, with accessibility consistently at 100%.
 
-- home page
-    - No errors or alers were returned when passing through the offical Lighthouse tool.
-    IMAGE
-- classical facts
-    - No errors or alers were returned when passing through the offical Lighthouse tool.
-    IMAGE
-- about me 
-    - No errors or alers were returned when passing through the offical Lighthouse tool.
-    IMAGE
-- let's talk
-    - No errors or alers were returned when passing through the offical Lighthouse tool.
-    IMAGE
+- The Landing Page
+    ![LP.Lighthouse](/assets/images/Screenshot%20LP.Lighthouse)
+
+- The Classical Facts Page
+    ![CF.Lighthouse](/assets/images/Screenshot%20CF.Lighthouse)
+
+- The About Me Page
+    ![AM.Lighthouse](/assets/images/Screenshot%20AM.Lighthouse)
+
+- The Let's Talk Page
+    ![LT.Lighthouse](/assets/images/Screenshot%20LT.Lighthouse)
 
 ###Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
