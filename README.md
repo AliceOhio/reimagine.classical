@@ -92,18 +92,7 @@ If this section grows too long, you may want to split it off into a separate fil
     IMAGE
 
 ### WAVE Testing
-- home page
-    - No errors or alers were returned when passing through the offical web accessibility evaluation tool.
-    IMAGE
-- classical facts
-    - No errors or alers were returned when passing through the offical web accessibility evaluation tool.
-    IMAGE
-- about me 
-    - No errors or alers were returned when passing through the offical web accessibility evaluation tool.
-    IMAGE
-- let's talk
-    - No errors or alers were returned when passing through the offical web accessibility evaluation tool.
-    IMAGE
+- There were no errors nor alerts throughout the website using WAVE (the web accessibility evaluation tool).
 
 ### Lighthouse Testing
 - The entire website scored very well throughout, with accessibility consistently at 100%.
