@@ -18,11 +18,9 @@ My goal through this website is to create a service in which I help you to exper
     - The fully responsive navigation bar includes links to the home page, facts about classical music, about me and a let's talk section and is consistent throughout the website for easy navigation.
 
     - The navigation bar allows the user to move easily from one page to another, across all devices and layouts (portrait or landscape) without having to us the 'back' button.
-    
-    Featured on all four pages, it is a fully responsive navigation bar with links to the home page, about me, contact me and why classical music page. The navigation bar is consistent throughout the site for ease of use.
 
-- “This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button”
-•	IMAGE OF NAVIGATION BAR HERE
+    ![NavigationBar](/assets/images/Screenshot%20NavBar)
+    
 •	The landing page image
 o	The landing page is simple in its concept, with an abstract blue/orange modern piece of photography as the background and the general slogan of “Classical reimagined”
 o	This section introduces users to the concept of using classical music to better their lives
