@@ -41,13 +41,7 @@ My goal through this website is to create a service in which I help you to exper
         - On large screens, the images are clear and bright with no filter used.
         - On smaller screens, the images are blurred and have an overlay so the classical facts can be easily read.
 
-    - The classical facts includes various facts about the advantages to listening to classical music, including its effects:
-        - on heart health,
-        - psychological health,
-        - breathing rates,
-        - neurological advantages,
-        - its use in the treatment of pain.
-        
+    - The classical facts includes various facts about the advantages to listening to classical music, including its effects on heart health, psychological health, breathing rates, neurological advantages as well as its use in the treatment of pain.
 
         - On large screens, the facts present themself only with the use of a hover effect.
         - On smaller screens, the facts present themselfs without use of hover.
