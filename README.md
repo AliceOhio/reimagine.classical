@@ -14,30 +14,48 @@ My goal through this website is to create a service in which I help you to exper
 
 ### Existing features:
 
-- Navigation Bar
+- The Navigation Bar
+
     - The fully responsive navigation bar includes links to the home page, facts about classical music, about me and a let's talk section and is consistent throughout the website for easy navigation.
 
     - The navigation bar allows the user to move easily from one page to another, across all devices and layouts (portrait or landscape) without having to us the 'back' button.
 
     ![NavigationBar](/assets/images/Screenshot%20NavBar)
     
-- The landing page image
+- The Landing Page
 
-    - The landing page image is a pair of over-the-ear headphones with the logo of reimagine classical over the image and a brief description directly under.
+    - The landing page image is a pair of over-the-ear headphones with the logo of reimagine classical over the image.
+    - There is a brief tag directly under clarifying the branding information.
 
     ![LandingPage](/assets/images/Screenshot%20LandingPage)
 
-- The footer
+- The Footer
 
     - The footer section allows the user to visit my personal page on relevant social media sites, including my CV on linkedin. The links open in a new tab to allow for simplified user navigation.
 
     ![Footer](/assets/images/Screenshot%20Footer)
 
-    
-•	The Footer
-o	The footer section includes the corporate address for “Classical reimagined”, the logo and links to relevant social media sites. “All links open in a new tab to allow for easy user navigation.”
-o	The footer is a valuable tool to encourage connection through social media and is a tool for showcasing previous work done by “Classical reimagined”
-o	FOOTER IMAGE HERE
+- The Classical Facts Page
+
+    - The classical facts page shows six various images of musical instruments, musical devices (a metronome) and written music itself. 
+        - On large screens, the images are clear and bright with no filter used.
+        - On smaller screens, the images are blurred and have an overlay so the classical facts can be easily read.
+
+    - The classical facts includes various facts about the advantages to listening to classical music, including its effects:
+        - on heart health,
+        - psychological health,
+        - breathing rates,
+        - neurological advantages,
+        - its use in the treatment of pain.
+        
+
+        - On large screens, the facts present themself only with the use of a hover effect.
+        - On smaller screens, the facts present themselfs without use of hover.
+
+    ![ClassicalFactsClear](/assets/images/Screenshot-CFclear)
+
+    ![ClassicalFactsBlur](/assets/images/Screenshot-CFblur)
+
 •	The About Me page
 o	This page is a brief overview of who the company is, their musical background and why the company believes classical music can better the user. (MAKE SURE THIS IS CLEARLY STATED.)
 o	This page also includes a hyperlink to a wonderful piano teacher (external) as well as to the contact me (internal) page.
@@ -45,14 +63,6 @@ o	ABOUT ME IMAGE HERE
 •	The Contact Me page
 o	This page allows the user to share a bit more about their personal music preferences to provide “Classical reimagined” a base for their initial contact. The user will be asked their musical preference styles, as well as personal details such as first and last name, pronoun and email address.
 o	CONTACT ME IMAGE HERE
-•	The Why Classical Music? Page
-o	This page does not yet exist but will feature images of various musical instruments and miscellaneous facts about the advantages to listening to classical music.
-	Affect on heart health
-	Affect on psychological health
-	Affect on breathing rate
-	Affect on spiritual health
-	Affect on brain (stimulation / relaxation)
-o	WHY CLASSICAL MUSIC IMAGE HERE
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
