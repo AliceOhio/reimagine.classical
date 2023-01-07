@@ -27,7 +27,13 @@ My goal through this website is to create a service in which I help you to exper
 
     ![LandingPage](/assets/images/Screenshot%20LandingPage)
 
-o	INSERT LANDING PAGE IMAGE HERE
+- The footer
+
+    - The footer section allows the user to visit my personal page on relevant social media sites, including my CV on linkedin. The links open in a new tab to allow for simplified user navigation.
+
+    ![Footer](/assets/images/Screenshot%20Footer)
+
+    
 •	The Footer
 o	The footer section includes the corporate address for “Classical reimagined”, the logo and links to relevant social media sites. “All links open in a new tab to allow for easy user navigation.”
 o	The footer is a valuable tool to encourage connection through social media and is a tool for showcasing previous work done by “Classical reimagined”
