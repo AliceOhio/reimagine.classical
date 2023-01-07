@@ -1,15 +1,27 @@
-# CLASSICAL REIMAGINED
+# Reimagine classical 
 
-Classical reimagined is a site for people who are interested in classical music but who may have never found the right music to fit their personal musical taste. This site is targeted for people interested in using the benefits of classical music (ADD PAGE STATING CLASSICAL MUSIC BENEFITS) to better their personal/professional/spiritual lives.
+[Reimagine classical](https://aliceohio.github.io/reimagine.classical/) is a site for people who are interested in classical music but who may have never found the right music to fit their personal musical taste. 
 
+Remembering the days of music recordings being available on vinyl, then the transition to tape cassettes, then on to cds and now to the multiple music apps where one can listen to everything, sometimes the choices are overwhelming.
 
+As a classical music lover and musician I get frustrated by poor performances and I've yet to find an online music app that offers consistent good recordings from top-notch musicians. 
+
+When you think of Debussy or Mozart you don't want to hear just anyone perform. What is it that makes a recording great as compared to just okay? It's about the performer's intimate knowledge of the piece they are performing, the hours of practice, the life experiences conveyed through the music. Music is not just about listening but about feeling. You should be able to feel the emotion of the musician coming through when you are listening (think of a live concert by your favorite artist vs an instrumental version you might hear in the elevator - one will definitely put you to sleep!)
+
+My goal through this website is to create a service in which I help you to experience the same passion I have for classical music by creating a specific collection of classical pieces based on your current listening preferences. By asking a few questions initially, and through our contact after you fill out the "let's talk" form, I will take time to curate your individualized playlist.
 
 ## FEATURES
 
-###Existing features:
-•	Navigation Bar
-o	Featured on all four pages, it is a fully responsive navigation bar with links to the home page, about me, contact me and why classical music page. The navigation bar is consistent throughout the site for ease of use.
-o	“This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button”
+### Existing features:
+
+- Navigation Bar
+    - The fully responsive navigation bar includes links to the home page, facts about classical music, about me and a let's talk section and is consistent throughout the website for easy navigation.
+
+    - The navigation bar allows the user to move easily from one page to another, across all devices and layouts (portrait or landscape) without having to us the 'back' button.
+    
+    Featured on all four pages, it is a fully responsive navigation bar with links to the home page, about me, contact me and why classical music page. The navigation bar is consistent throughout the site for ease of use.
+
+- “This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button”
 •	IMAGE OF NAVIGATION BAR HERE
 •	The landing page image
 o	The landing page is simple in its concept, with an abstract blue/orange modern piece of photography as the background and the general slogan of “Classical reimagined”
