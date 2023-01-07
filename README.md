@@ -60,12 +60,22 @@ My goal through this website is to create a service in which I help you to exper
 
     ![AboutMe](/assets/images/Screenshot-AM)
 
+- The Let's Talk Page
 
+    - The let's talk page allows the user to share with me a bit more about their current music preferences to provide a base for the initial contact.
 
+    - The let's talk page uses an image of a vinyl record in the background with a transparent overlay so the text can be easily read.
 
-•	The Contact Me page
-o	This page allows the user to share a bit more about their personal music preferences to provide “Classical reimagined” a base for their initial contact. The user will be asked their musical preference styles, as well as personal details such as first and last name, pronoun and email address.
-o	CONTACT ME IMAGE HERE
+    - The let's talk page includes:
+        - a datalist dropdown menu for pronoun usage,
+        - a text input for name,
+        - a required email input,
+        - a checkbox with four options for musical style preferences,
+        - a textarea input for any additional information the user would like to share, and
+        - a submit button.
+
+    ![LetsTalk](/assets/images/Screenshot-LT)
+
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
