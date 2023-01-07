@@ -637,6 +637,7 @@ footer {
     .aboutme p {
         font-size: 60%;
         width: 100ch;
+        padding-bottom: 0.5%;
     }
 
     .letstalkimg h1 {
