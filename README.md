@@ -50,10 +50,19 @@ My goal through this website is to create a service in which I help you to exper
 
     ![ClassicalFactsBlur](/assets/images/Screenshot-CFblur)
 
-•	The About Me page
-o	This page is a brief overview of who the company is, their musical background and why the company believes classical music can better the user. (MAKE SURE THIS IS CLEARLY STATED.)
-o	This page also includes a hyperlink to a wonderful piano teacher (external) as well as to the contact me (internal) page.
-o	ABOUT ME IMAGE HERE
+- The About Me Page
+
+    - The about me page is a brief overview of who I am, including my musical background as well as why I believe listening to classical music is beneficial to everyone.
+    
+    - This page includes two working hyperlinks, both of which open in new windows, for user ease.
+        - The first link is an external link to a biography of a music teacher.
+        - The second link in an internal link to the "let's talk" page to encourage interaction with the user.
+
+    ![AboutMe](/assets/images/Screenshot-AM)
+
+
+
+
 •	The Contact Me page
 o	This page allows the user to share a bit more about their personal music preferences to provide “Classical reimagined” a base for their initial contact. The user will be asked their musical preference styles, as well as personal details such as first and last name, pronoun and email address.
 o	CONTACT ME IMAGE HERE
