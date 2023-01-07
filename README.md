@@ -21,9 +21,12 @@ My goal through this website is to create a service in which I help you to exper
 
     ![NavigationBar](/assets/images/Screenshot%20NavBar)
     
-•	The landing page image
-o	The landing page is simple in its concept, with an abstract blue/orange modern piece of photography as the background and the general slogan of “Classical reimagined”
-o	This section introduces users to the concept of using classical music to better their lives
+- The landing page image
+
+    - The landing page image is a pair of over-the-ear headphones with the logo of reimagine classical over the image and a brief description directly under.
+
+    ![LandingPage](/assets/images/Screenshot%20LandingPage)
+
 o	INSERT LANDING PAGE IMAGE HERE
 •	The Footer
 o	The footer section includes the corporate address for “Classical reimagined”, the logo and links to relevant social media sites. “All links open in a new tab to allow for easy user navigation.”
