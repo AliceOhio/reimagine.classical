@@ -20,20 +20,20 @@ My goal through this website is to create a service in which I help you to exper
 
     - The navigation bar allows the user to move easily from one page to another, across all devices and layouts (portrait or landscape) without having to us the 'back' button.
 
-    ![NavigationBar](/assets/images/Screenshot%20NavBar)
+    ![NavigationBar](assets/images/Screenshot%20NavBar)
     
 - The Landing Page
 
     - The landing page image is a pair of over-the-ear headphones with the logo of reimagine classical over the image.
     - There is a brief tag directly under clarifying the branding information.
 
-    ![LandingPage](/assets/images/Screenshot%20LandingPage)
+    ![LandingPage](assets/images/Screenshot%20LandingPage)
 
 - The Footer
 
     - The footer section allows the user to visit my personal page on relevant social media sites, including my CV on linkedin. The links open in a new tab to allow for simplified user navigation.
 
-    ![Footer](/assets/images/Screenshot%20Footer)
+    ![Footer](assets/images/Screenshot%20Footer)
 
 - The Classical Facts Page
 
@@ -46,9 +46,9 @@ My goal through this website is to create a service in which I help you to exper
         - On large screens, the facts present themself only with the use of a hover effect.
         - On smaller screens, the facts present themselfs without use of hover.
 
-    ![ClassicalFactsClear](/assets/images/Screenshot-CFclear)
+    ![ClassicalFactsClear](assets/images/Screenshot-CFclear)
 
-    ![ClassicalFactsBlur](/assets/images/Screenshot-CFblur)
+    ![ClassicalFactsBlur](assets/images/Screenshot-CFblur)
 
 - The About Me Page
 
@@ -58,7 +58,7 @@ My goal through this website is to create a service in which I help you to exper
         - The first link is an external link to a biography of a music teacher.
         - The second link in an internal link to the "let's talk" page to encourage interaction with the user.
 
-    ![AboutMe](/assets/images/Screenshot-AM)
+    ![AboutMe](assets/images/Screenshot-AM)
 
 - The Let's Talk Page
 
@@ -74,7 +74,7 @@ My goal through this website is to create a service in which I help you to exper
         - a textarea input for any additional information the user would like to share, and
         - a submit button.
 
-    ![LetsTalk](/assets/images/Screenshot-LT)
+    ![LetsTalk](assets/images/Screenshot-LT)
 
 
 ## Testing
@@ -86,7 +86,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing
 - HTML
     - No errors were returned when passing through the official W3C validator
-    IMAGE
+    ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
 - CSS
     - No errors were found when passing through the official (Jigsaw) validator
     IMAGE
@@ -98,16 +98,16 @@ If this section grows too long, you may want to split it off into a separate fil
 - The entire website scored very well throughout, with accessibility consistently at 100%.
 
 - The Landing Page
-    ![LP.Lighthouse](/assets/images/Screenshot%20LP.Lighthouse)
+    ![LP.Lighthouse](assets/images/Screenshot%20LP.Lighthouse)
 
 - The Classical Facts Page
-    ![CF.Lighthouse](/assets/images/Screenshot%20CF.Lighthouse)
+    ![CF.Lighthouse](assets/images/Screenshot%20CF.Lighthouse)
 
 - The About Me Page
-    ![AM.Lighthouse](/assets/images/Screenshot%20AM.Lighthouse)
+    ![AM.Lighthouse](assets/images/Screenshot%20AM.Lighthouse)
 
 - The Let's Talk Page
-    ![LT.Lighthouse](/assets/images/Screenshot%20LT.Lighthouse)
+    ![LT.Lighthouse](assets/images/Screenshot%20LT.Lighthouse)
 
 ###Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.

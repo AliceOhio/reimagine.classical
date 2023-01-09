@@ -48,7 +48,7 @@ h4 {
     height: 4.5dvh;
     /* line-height: 40px; */
     display: flex;
-    flex: row wrap;
+    flex-wrap: nowrap;
     justify-content: flex-end;
 }
 
@@ -282,11 +282,11 @@ textarea {
 
 .contactinfo {
     display: flex;
-    flex: row wrap;
+    flex-wrap: nowrap;
     align-content: normal;
     align-items: center;
     justify-content: space-between;
-    width: max-width;
+    width: max-content;
 }
 
 .musicstyles {
