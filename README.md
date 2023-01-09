@@ -89,7 +89,7 @@ If this section grows too long, you may want to split it off into a separate fil
     ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
 - CSS
     - No errors were found when passing through the official (Jigsaw) validator
-    IMAGE
+    ![CSSw3Testing](assets/images/Screenshot-CSSw3Testing)
 
 ### WAVE Testing
 - There were no errors nor alerts throughout the website using WAVE (the web accessibility evaluation tool).
@@ -98,35 +98,38 @@ If this section grows too long, you may want to split it off into a separate fil
 - The entire website scored very well throughout, with accessibility consistently at 100%.
 
 - The Landing Page
-    ![LP.Lighthouse](assets/images/Screenshot%20LP.Lighthouse)
+
+    ![LP.Lighthouse](/assets/images/Screenshot-LP.Lighthouse)
+
 
 - The Classical Facts Page
+
     ![CF.Lighthouse](assets/images/Screenshot%20CF.Lighthouse)
 
 - The About Me Page
+
     ![AM.Lighthouse](assets/images/Screenshot%20AM.Lighthouse)
 
 - The Let's Talk Page
+
     ![LT.Lighthouse](assets/images/Screenshot%20LT.Lighthouse)
 
-###Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+### Unfixed Bugs
 
-Hero image and heading are not in sync size-wise at certain media break points. I’ve not found a solution at this point.
-
-Music Styles I like in let’s talk don’t always keep label with checkbox (when certain media point hits during wrapping).
+Using only CSS and HTML limits the number of music styles in the Let's Talk Page without affecting User Experience. Additionally, I am limited to how the checkbox and label wrap using only CSS and HTML (i.e. not wrapping together because the code doesn't see the checkbox and its corresponding label as one unit).
 
 Submit button has weird background color I can’t figure out.
 
-Checkbox had initially multiple options that were reduced because of wrapping issued that could not be resolved within html and css technolgoies (that I could find).
-
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-•	The site was deployed to GitHub pages. The steps to deploy are as follows:
-o	In the GitHub repository, navigate to the Settings tab
-o	From the source section drop-down menu, select the Master Branch
-o	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+
+- This website was deployed to GitHub page using the following steps:
+    - In the GitHub respository, navigate to the Settings tab
+    - Open the Pages Section
+    - Under the Branch Section, click on the dropdown Select Branch and change to Main
+    - Once the Branch has been changed to Main, refresh the page to have a ribbon at the top indicating successful deployment (and the web address) 
+
+The live link can be found here - https://aliceohio.github.io/reimagine.classical/
+
 
 ## Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
