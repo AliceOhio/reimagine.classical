@@ -116,9 +116,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-Using only CSS and HTML limits the number of music styles in the Let's Talk Page without affecting User Experience. Additionally, I am limited to how the checkbox and label wrap using only CSS and HTML (i.e. not wrapping together because the code doesn't see the checkbox and its corresponding label as one unit).
-
-Submit button has weird background color I can’t figure out which shows up as blue on iOS devices live but not using devtools.
+Using only CSS and HTML limits the number of music styles in the Let's Talk Page without affecting User Experience. Additionally, I am limited to how the checkbox and label wrap using only CSS and HTML (i.e. not wrapping together because the code doesn't see the checkbox and its corresponding label as one unit). I limited the number of styles (initially there were 8) due to problems with UX and wrapping, but the checkbox is still not linked to the label at certain screen sizes.
 
 ## Deployment
 
@@ -133,9 +131,10 @@ The live link can be found here - https://aliceohio.github.io/reimagine.classica
 
 ## Credits
 
-- The basic framework was inspired by the Love Running project by Code Institute
-- The button was designed using code from developer.mozilla.org (specific location referenced in CSS)
-- Additional methodologies / techniques (ie flexbox, grid, text fading in over image with an overlay on that image) came from YouTube videos from either Kevin Powell (https://www.youtube.com/@KevinPowell) or NAME at webdevsimplified (https://www.youtube.com/c/webdevsimplified)
+- The basic framework was inspired by the Love Running project by Code Institute (https://github.com/Code-Institute-Org/love-running-2.0)
+- The button was designed using code from developer.mozilla.org (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+- The footer html code was taken directly from the Love Running Project by Code Institute.
+- Additional methodologies / techniques (ie flexbox, grid, text fading in over image with an overlay on that image) were acquired from YouTube videos from either Kevin Powell (https://www.youtube.com/@KevinPowell) or Kyle at webdevsimplified (https://www.youtube.com/c/webdevsimplified)
 
 
 ## Media

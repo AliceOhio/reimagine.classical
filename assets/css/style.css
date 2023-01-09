@@ -46,7 +46,6 @@ h4 {
     letter-spacing: 1px;
     margin: 0.5vw 1dvw;
     height: 4.5dvh;
-    /* line-height: 40px; */
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
@@ -74,7 +73,7 @@ h4 {
     border-bottom: 1.5px solid #0B0A08;
 }
 
-/* home page */
+/* landing page */
 
 /* hero image */
 .hero-image {
@@ -118,8 +117,8 @@ h4 {
     width: 100dvw;
     text-align: center;
 }
-/* code (inspired) from WebDevSimplified https://github.com/WebDevSimplified/css-image-hover-effect and Kevin Powell*/
 
+/* code (inspired) from WebDevSimplified https://github.com/WebDevSimplified/css-image-hover-effect and Kevin Powell*/
 .grid {
     padding: 0.5em;
     display: grid;
@@ -155,22 +154,9 @@ h4 {
     align-items: center;
 }
 
-/* .img-wrapper>img,
-.img-wrapper>.content {
-    transition: 200ms ease-in-out;
-} */
-
 .img-wrapper>img {
     filter: blur(5px)
 }
-
-/* .img-wrapper:hover>.content.fade {
-    opacity: 1;
-}
-
-.img-wrapper:hover>img.blur {
-    filter: blur(5px)
-} */
 
 /* about me  */
 .aboutmeimg {
