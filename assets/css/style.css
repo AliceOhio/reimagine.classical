@@ -311,22 +311,27 @@ textarea {
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button */
-.button {
-    background-color: rgba(213, 209, 203, .8);
-    width: 10em;
-    text-align: center;
+.styled {
+    border: 0;
     line-height: 2.5;
-    padding: 6px;
-    font-size: 0.8rem;
-    border-radius: 10px;   
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #D5D1CB;
+    text-shadow: 1px 1px 1px #0B0A08;
+    border-radius: 10px;
+    background-color: rgba(213, 209, 203, 0.8);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .button h2 {
+    font-family: inherit;
     color: #0B0A08;
 }
 
 .button:hover {
-    background-color: rgba(213, 209, 203, 0.8)
+    background-color: rgba(213, 209, 203, 1);
 }
 
 input::placeholder {

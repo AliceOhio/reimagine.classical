@@ -118,7 +118,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 Using only CSS and HTML limits the number of music styles in the Let's Talk Page without affecting User Experience. Additionally, I am limited to how the checkbox and label wrap using only CSS and HTML (i.e. not wrapping together because the code doesn't see the checkbox and its corresponding label as one unit).
 
-Submit button has weird background color I can’t figure out.
+Submit button has weird background color I can’t figure out which shows up as blue on iOS devices live but not using devtools.
 
 ## Deployment
 
@@ -132,10 +132,11 @@ The live link can be found here - https://aliceohio.github.io/reimagine.classica
 
 
 ## Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 - The basic framework was inspired by the Love Running project by Code Institute
-- Additional methodologies / techniques (ie flexbox, grid, text fading in over image with an overlay on that image) came from YouTube videos from either Kevin Powell (link to YT here) or NAME at webdevsimplified (LINK TO YT HERE)
+- The button was designed using code from developer.mozilla.org (specific location referenced in CSS)
+- Additional methodologies / techniques (ie flexbox, grid, text fading in over image with an overlay on that image) came from YouTube videos from either Kevin Powell (https://www.youtube.com/@KevinPowell) or NAME at webdevsimplified (https://www.youtube.com/c/webdevsimplified)
+
 
 ## Media
 
