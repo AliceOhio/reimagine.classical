@@ -146,7 +146,7 @@ h4 {
 .img-wrapper>.content {
     position: absolute;
     inset: 0;
-    font-size: 1.8em;
+    font-size: 1.6em;
     padding: 1em;
     background: rgba(213, 209, 203, .4);
     display: flex;
