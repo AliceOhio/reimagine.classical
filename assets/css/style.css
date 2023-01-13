@@ -368,6 +368,32 @@ footer {
     color: #453d31;
 }
 
+/* 404 page */
+
+.notfoundimg {
+    background-image: url(../images/letstalkimg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #D5D1CB;
+    height: 80dvh;
+    width: 100dvw;
+}
+
+.notfound h1 {
+    color: #D5D1CB;
+    background: rgba(14, 14, 15, 0.8);
+    padding: 1em;
+    margin: 0 5%;
+    height: 60dvh;
+    text-align: center;
+}
+
+.notfound-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
 /* media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -409,6 +435,10 @@ footer {
     }
 
     .letstalkimg h1 {
+        font-size: 180%;
+    }
+
+    .notfound h1 {
         font-size: 180%;
     }
 }
@@ -478,6 +508,10 @@ footer {
     
     .addlinfo {
         font-size: 80%;
+    }
+
+    .notfound h1 {
+        font-size: 140%;
     }
 }
 
@@ -556,6 +590,10 @@ footer {
     
     .addlinfo {
         font-size: 80%;
+    }
+
+    .notfound h1 {
+        font-size: 120%;
     }
 }
 
@@ -679,5 +717,9 @@ footer {
         line-height: 2;
         padding: 4px;
         font-size: 80%;
+    }
+
+    .notfound h1 {
+        font-size: 100%;
     }
 }
