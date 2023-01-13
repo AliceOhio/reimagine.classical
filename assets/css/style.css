@@ -181,6 +181,7 @@ h4 {
 .aboutme {
     display: grid;
     place-items: center;
+    height: 60dvh;
 }
 
 .aboutme p {
@@ -188,9 +189,12 @@ h4 {
     line-height: 1.5;
     background: rgba(213, 209, 203, .75);
     width: 80ch;
-    height: auto;
+    height: 60dvh;
     padding: 1em;
-    font-size: 110%;
+    font-size: auto;
+    overflow: scroll;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 .aboutme a {
@@ -344,8 +348,8 @@ footer {
     bottom: 0;
     width: 100dvw;
     text-align: center;
-    height: 8dvh;
 }
+
 
 .social-networks {
     text-align: center;
@@ -401,7 +405,7 @@ footer {
     }
 
     .aboutme p {
-        font-size: 100%;
+        font-size: 95%;
     }
 
     .letstalkimg h1 {
@@ -526,7 +530,7 @@ footer {
 
     .aboutme p {
         font-size: 60%;
-        width: 50ch;
+        width: 60%;
     }
 
     .letstalk {
@@ -634,7 +638,7 @@ footer {
 
     .aboutme p {
         font-size: 60%;
-        width: 100ch;
+        /* width: 100ch; */
         padding-bottom: 0.5%;
     }
 
