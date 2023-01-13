@@ -264,15 +264,22 @@ textarea {
 
 #pronoun {
     width: 10dvw;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#name, #email {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .contactinfo {
     display: flex;
     flex-wrap: nowrap;
-    align-content: normal;
+    /* align-content: normal; */
     align-items: center;
     justify-content: space-between;
-    width: max-content;
+    /* width: max-content; */
 }
 
 .musicstyles {
