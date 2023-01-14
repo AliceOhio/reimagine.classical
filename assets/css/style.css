@@ -368,7 +368,7 @@ footer {
     color: #453d31;
 }
 
-/* 404 page */
+/* 404 not found page */
 
 .notfoundimg {
     background-image: url(../images/letstalkimg.webp);
@@ -394,6 +394,7 @@ footer {
     display: inline-block;
 }
 
+/* thank you for contacting me page */
 .thanks h1 {
     color: #D5D1CB;
     background: rgba(14, 14, 15, 0.8);
