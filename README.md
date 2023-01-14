@@ -20,20 +20,26 @@ My goal through this website is to create a service in which I help you to exper
 
     - The navigation bar allows the user to move easily from one page to another, across all devices and layouts (portrait or landscape) without having to us the 'back' button.
 
-    ![NavigationBar](assets/images/Screenshot%20NavBar)
+    ![NavigationBar](docs/readme_images/Screenshot%20NavBar)
     
 - The Landing Page
 
     - The landing page image is a pair of over-the-ear headphones with the logo of reimagine classical over the image.
     - There is a brief tag directly under clarifying the branding information.
 
-    ![LandingPage](assets/images/Screenshot%20LandingPage)
+    ![LandingPage](docs/readme_images/Screenshot%20LandingPage)
 
 - The Footer
 
     - The footer section allows the user to visit my personal page on relevant social media sites, including my CV on linkedin. The links open in a new tab to allow for simplified user navigation.
 
-    ![Footer](assets/images/Screenshot%20Footer)
+    ![Footer](docs/readme_images/Screenshot%20Footer)
+
+- The Favicon
+
+    - The favicon represents a simple image of the first two letters of the concept, reimagine classical, and is featured on every page.
+
+    ![Favicon](docs/readme_images/Screenshot%20favicon.ico)
 
 - The Classical Facts Page
 
@@ -46,9 +52,9 @@ My goal through this website is to create a service in which I help you to exper
         - On large screens, the facts present themself only with the use of a hover effect.
         - On smaller screens, the facts present themselfs without use of hover.
 
-    ![ClassicalFactsClear](assets/images/Screenshot-CFclear)
+    ![ClassicalFactsClear](docs/readme_images/Screenshot-CFclear)
 
-    ![ClassicalFactsBlur](assets/images/Screenshot-CFblur)
+    ![ClassicalFactsBlur](docs/readme_images/Screenshot-CFblur)
 
 - The About Me Page
 
@@ -58,7 +64,7 @@ My goal through this website is to create a service in which I help you to exper
         - The first link is an external link to a biography of a music teacher.
         - The second link in an internal link to the "let's talk" page to encourage interaction with the user.
 
-    ![AboutMe](assets/images/Screenshot-AM)
+    ![AboutMe](docs/readme_images/Screenshot-AM)
 
 - The Let's Talk Page
 
@@ -71,10 +77,21 @@ My goal through this website is to create a service in which I help you to exper
         - a text input for name,
         - a required email input,
         - a checkbox with four options for musical style preferences,
-        - a textarea input for any additional information the user would like to share, and
-        - a submit button.
+        - a textarea input for any additional information the user would like to share,
+        - a submit button, and
+        - a custom thank you for contacting me page.
 
-    ![LetsTalk](assets/images/Screenshot-LT)
+    ![LetsTalk](docs/readme_images/Screenshot-LT)
+
+    ![Thanks](docs/readme_images/Screenshot%20ContactPage)
+
+- The 404 Not Found Page
+
+    - There is a custom 404 not found page which provides a link back to the landing page. 
+        - The link does not open in a new window as it functions as a return.
+
+    ![404Page](docs/readme_images/Screenshot%20404Page)
+
 
 
 ## Testing
@@ -118,6 +135,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 Using only CSS and HTML limits the number of music styles in the Let's Talk Page without affecting User Experience. Additionally, I am limited to how the checkbox and label wrap using only CSS and HTML (i.e. not wrapping together because the code doesn't see the checkbox and its corresponding label as one unit). I limited the number of styles (initially there were 8) due to problems with UX and wrapping, but the checkbox is still not linked to the label at certain screen sizes.
 
+Additionally, due to the limitations of HTML and CSS, I created a custom thank you form.
+
 ## Deployment
 
 - This website was deployed to GitHub page using the following steps:
@@ -135,11 +154,13 @@ The live link can be found here - https://aliceohio.github.io/reimagine.classica
 - The button was designed using code from developer.mozilla.org (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
 - The footer html code was taken directly from the Love Running Project by Code Institute.
 - Additional methodologies / techniques (ie flexbox, grid, text fading in over image with an overlay on that image) were acquired from YouTube videos from either Kevin Powell (https://www.youtube.com/@KevinPowell) or Kyle at webdevsimplified (https://www.youtube.com/c/webdevsimplified)
+- I am very thankful to my mentor, who provided me not only with many online resources to ensure accessibility and accuracy in my code, but also gave me additinal hints and tips for refinement. Thanks Gareth!
 
 
 ## Media
 
 - The images throughout the website were taken from Pexels.com
 - The footer icons were taken from Font Awesome
+- The favicon was created using favicon.io
 
 
