@@ -146,7 +146,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - CSS
     - No errors were found when passing through the official (Jigsaw) validator
-    ![CSSw3Testing](assets/images/Screenshot-CSSw3Testing)
+    ![CSSw3Testing](docs/testing_images/Screenshot-CSSw3Testing)
 
 ### WAVE Testing
 - There were no errors nor alerts throughout the website using WAVE (the web accessibility evaluation tool).
