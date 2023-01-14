@@ -242,12 +242,16 @@ textarea {
     bottom: 50%;
     background: rgba(14, 14, 15, 0.7);
     color: #D5D1CB;
-    width: 70dvw;
+    width: 100dvw;
     height: 80dvh;
     padding: 0 150px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.form {
+    width: 70dvw;
 }
 
 .letstalkimg h1 {
@@ -320,7 +324,7 @@ textarea {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
-    font-size: 1rem;
+    font-size: 100%;
     text-align: center;
     color: #D5D1CB;
     text-shadow: 1px 1px 1px #0B0A08;
@@ -559,6 +563,10 @@ footer {
         font-size: 80%;
     }
 
+    .styled {
+        font-size: 80%;
+    }
+
     .notfound h1 {
         font-size: 140%;
     }
@@ -646,6 +654,10 @@ footer {
     }
 
     .addlinfo {
+        font-size: 80%;
+    }
+
+    .styled {
         font-size: 80%;
     }
 
@@ -751,6 +763,10 @@ footer {
     }
 
     .addlinfo {
+        font-size: 80%;
+    }
+
+    .styled {
         font-size: 80%;
     }
 
