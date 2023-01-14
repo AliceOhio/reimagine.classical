@@ -100,10 +100,50 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+- Social media links function properly (open in new window, on the respective website).
+
+- All inputs function properly, with the form inputs of name and email being required.
+
+- All hover effects function properly.
+
+- Links to external websites open in a new page.
+
+- Links internally funciton properly.
+ 
+- Responsive design testing was done on the following devices to ensure functionality: 
+    - iphone SE, XR, 8
+    - ipad 8
+    - macbook 13"
+    - dell 14"
+    - Android cell phone
+    - Kindle fire tablet
+    - Wide-screen laptop
+
+
 ### Validator Testing
 - HTML
-    - No errors were returned when passing through the official W3C validator
-    ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+    - The Landing Page
+        - No errors were returned when passing through the official W3C validator
+        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+    - The Classical Facts Page
+        - No errors were returned when passing through the official W3C validator
+        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+    - The About Me Page
+        - No errors were returned when passing through the official W3C validator
+        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+    - The Let's Talk Page
+        - No errors were returned when passing through the official W3C validator
+        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+    - The Contact Page
+        - No errors were returned when passing through the official W3C validator
+        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+    - The 404 Not Found Page
+        - No errors were returned when passing through the official W3C validator
+        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+
+
+
+
 - CSS
     - No errors were found when passing through the official (Jigsaw) validator
     ![CSSw3Testing](assets/images/Screenshot-CSSw3Testing)
