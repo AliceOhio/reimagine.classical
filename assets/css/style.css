@@ -24,7 +24,7 @@ h2 {
     font-size: 200%;
 }
 
-h3 {
+/* h3 {
     font-family: 'Quicksand', sans-serif;
     text-transform: lowercase;
     letter-spacing: 5px;
@@ -38,7 +38,7 @@ h4 {
     text-align: center;
     font-size: 120%;
     font-weight: 600;
-}
+} */
 
 /* navigation links */
 #navbar {
@@ -259,6 +259,7 @@ textarea {
     background: rgba(14, 14, 15, 0.8);
     padding: 1em;
     height: 4.5dvh;
+    width: 70dvw;
     text-align: center;
 }
 
@@ -273,12 +274,12 @@ textarea {
 #pronoun {
     width: 10dvw;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 #name, #email {
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 .contactinfo {
@@ -311,6 +312,8 @@ textarea {
     text-align: center;
     font-size: 120%;
     font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: 5px;
 }
 
 .container {
@@ -494,7 +497,7 @@ footer {
 
 /* For medium screen sizes 800px and down */
 
-@media screen and (max-width: 800px) and (min-width: 651px) {
+@media screen and (max-width: 800px) and (min-width: 673px) {
     .body {
         overflow: scroll;
     }
@@ -628,12 +631,17 @@ footer {
         width: 60%;
     }
 
+    .letstalkimg h1 {
+        font-size: 120%;
+    }
+
     .letstalk {
         font-size: 12px;
     }
 
     .contactinfo {
         display: grid;
+        justify-content: center;
         font-size: 80%;
     }
 
@@ -738,7 +746,7 @@ footer {
     .letstalk {
         font-size: 12px;
         width: 60dvw;
-        height: 68dvh;
+        height: 75dvh;
         padding-bottom: 5%;
     }
 
