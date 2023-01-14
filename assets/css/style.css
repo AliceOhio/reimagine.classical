@@ -191,7 +191,7 @@ h4 {
     width: 80ch;
     height: 60dvh;
     padding: 1em;
-    font-size: auto;
+    font-size: 100%;
     overflow: scroll;
     margin-left: 5px;
     margin-right: 10px;
@@ -568,9 +568,9 @@ footer {
     }
 }
 
-/* For small screen sizes 650px and down */
+/* For small screen sizes 672px and down */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 672px) {
 
     .body {
         overflow: scroll;
