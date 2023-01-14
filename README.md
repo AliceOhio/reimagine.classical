@@ -124,22 +124,22 @@ If this section grows too long, you may want to split it off into a separate fil
 - HTML
     - The Landing Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+        ![HTMLw3Testing](docs/testing_images/Screenshot%20index%20html%20w3)
     - The Classical Facts Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+        ![HTMLw3Testing](docs/testing_images/Screenshot%20cfacts%20html%20w3)
     - The About Me Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+        ![HTMLw3Testing](docs/testing_images/Screenshot%20aboutme%20html%20w3)
     - The Let's Talk Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+        ![HTMLw3Testing](docs/testing_images/Screenshot%20letstalk%20html%20w3)
     - The Contact Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+        ![HTMLw3Testing](docs/testing_images/Screenshot%20contactthanks%20html%20w3)
     - The 404 Not Found Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](assets/images/Screenshot-HTMLw3test)
+        ![HTMLw3Testing](docs/testing_images/Screenshot%20404%20html%20w3)
 
 
 
