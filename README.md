@@ -156,20 +156,28 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - The Landing Page
 
-    ![LP.Lighthouse](/assets/images/Screenshot-LP.Lighthouse)
+    ![LP.Lighthouse](docs/testing_images/Screenshot%20LP.Lighthouse)
 
 
 - The Classical Facts Page
 
-    ![CF.Lighthouse](assets/images/Screenshot%20CF.Lighthouse)
+    ![CF.Lighthouse](docs/testing_images/Screenshot%20CF.Lighthouse)
 
 - The About Me Page
 
-    ![AM.Lighthouse](assets/images/Screenshot%20AM.Lighthouse)
+    ![AM.Lighthouse](docs/testing_images/Screenshot%20AM.Lighthouse)
 
 - The Let's Talk Page
 
-    ![LT.Lighthouse](assets/images/Screenshot%20LT.Lighthouse)
+    ![LT.Lighthouse](docs/testing_images/Screenshot%20LT.Lighthouse)
+
+- The 404 Not Found Page
+
+    ![404.Lighthouse](docs/testing_images/Screenshot%20404.Lighthouse)
+
+- The Contact Page
+
+    ![ContactThanks.Lighthouse](docs/testing_images/Screenshot%20contactthanks.lighthouse)
 
 ### Unfixed Bugs
 
