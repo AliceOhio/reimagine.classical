@@ -18,7 +18,7 @@ My goal through this website is to create a service in which I help you to exper
 
     - The fully responsive navigation bar includes links to the home page, facts about classical music, about me and a let's talk section and is consistent throughout the website for easy navigation.
 
-    - The navigation bar allows the user to move easily from one page to another, across all devices and layouts (portrait or landscape) without having to us the 'back' button.
+    - The navigation bar allows the user to move easily from one page to another, across all devices and layouts (portrait or landscape) without having to use the 'back' button.
 
     ![NavigationBar](docs/readme_images/Screenshot%20NavBar)
     
@@ -43,11 +43,11 @@ My goal through this website is to create a service in which I help you to exper
 
 - The Classical Facts Page
 
-    - The classical facts page shows six various images of musical instruments, musical devices (a metronome) and written music itself. 
+    - The classical facts page shows six various images related to music, including musical instruments, musical devices (a metronome) and written music itself. 
         - On large screens, the images are clear and bright with no filter used.
         - On smaller screens, the images are blurred and have an overlay so the classical facts can be easily read.
 
-    - The classical facts includes various facts about the advantages to listening to classical music, including its effects on heart health, psychological health, breathing rates, neurological advantages as well as its use in the treatment of pain.
+    - The classical facts include various facts about the advantages to listening to classical music, including its effects on heart health, psychological health, breathing rates, neurological advantages as well as its use in the treatment of pain.
 
         - On large screens, the facts present themself only with the use of a hover effect.
         - On smaller screens, the facts present themselfs without use of hover.
@@ -60,8 +60,8 @@ My goal through this website is to create a service in which I help you to exper
 
     - The about me page is a brief overview of who I am, including my musical background as well as why I believe listening to classical music is beneficial to everyone.
     
-    - This page includes two working hyperlinks, both of which open in new windows, for user ease.
-        - The first link is an external link to a biography of a music teacher.
+    - This page includes two working hyperlinks:
+        - The first link is an external link to a biography of my music teacher and opens in a new window, for improved user experience.
         - The second link in an internal link to the "let's talk" page to encourage interaction with the user.
 
     ![AboutMe](docs/readme_images/Screenshot-AM)
@@ -74,11 +74,11 @@ My goal through this website is to create a service in which I help you to exper
 
     - The let's talk page includes:
         - a datalist dropdown menu for pronoun usage,
-        - a text input for name,
-        - a required email input,
+        - a text input for name (required),
+        - a required email input (required),
         - a checkbox with four options for musical style preferences,
         - a textarea input for any additional information the user would like to share,
-        - a submit button, and
+        - a submit button, and when the form is submitted, 
         - a custom thank you for contacting me page.
 
     ![LetsTalk](docs/readme_images/Screenshot-LT)
@@ -87,7 +87,7 @@ My goal through this website is to create a service in which I help you to exper
 
 - The 404 Not Found Page
 
-    - There is a custom 404 not found page which provides a link back to the landing page. 
+    - There is a custom 404 not found page which provides a link back to the landing page if a user navigates to a broken link.
         - The link does not open in a new window as it functions as a return.
 
     ![404Page](docs/readme_images/Screenshot%20404Page)
@@ -95,16 +95,13 @@ My goal through this website is to create a service in which I help you to exper
 
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 - Social media links function properly (open in new window, on the respective website).
 
 - All inputs function properly, with the form inputs of name and email being required.
 
-- All hover effects function properly.
+- All hover effects function properly on larger screens.
+    - On smaller screens the hover effects do not show and this has been confirmed through testing.
 
 - Links to external websites open in a new page.
 
@@ -121,7 +118,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 
 ### Validator Testing
-- HTML
+- HTML - [W3C Validator](https://validator.w3.org/#validate_by_input)
     - The Landing Page
         - No errors were returned when passing through the official W3C validator
         ![HTMLw3Testing](docs/testing_images/Screenshot%20index%20html%20w3)
@@ -141,17 +138,14 @@ If this section grows too long, you may want to split it off into a separate fil
         - No errors were returned when passing through the official W3C validator
         ![HTMLw3Testing](docs/testing_images/Screenshot%20404%20html%20w3)
 
-
-
-
-- CSS
+- CSS [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
     - No errors were found when passing through the official (Jigsaw) validator
     ![CSSw3Testing](docs/testing_images/Screenshot-CSSw3Testing)
 
-### WAVE Testing
+### [WAVE Testing](https://wave.webaim.org) 
 - There were no errors nor alerts throughout the website using WAVE (the web accessibility evaluation tool).
 
-### Lighthouse Testing
+### [Lighthouse Testing](https://github.com/GoogleChrome/lighthouse)
 - The entire website scored very well throughout, with accessibility consistently at 100%.
 
 - The Landing Page
@@ -179,11 +173,13 @@ If this section grows too long, you may want to split it off into a separate fil
 
     ![ContactThanks.Lighthouse](docs/testing_images/Screenshot%20contactthanks.lighthouse)
 
+- The let's talk form was tested to ensure required inputs were in fact required (name and email) as well as the proper submission goes to the contact page.
+
 ### Unfixed Bugs
 
 Using only CSS and HTML limits the number of music styles in the Let's Talk Page without affecting User Experience. Additionally, I am limited to how the checkbox and label wrap using only CSS and HTML (i.e. not wrapping together because the code doesn't see the checkbox and its corresponding label as one unit). I limited the number of styles (initially there were 8) due to problems with UX and wrapping, but the checkbox is still not linked to the label at certain screen sizes.
 
-Additionally, due to the limitations of HTML and CSS, I created a custom thank you form.
+Additionally, due to the limitations of HTML and CSS, I created a custom thank you form to show user that form was submitted and I will be in contact. 
 
 ## Deployment
 
@@ -198,17 +194,18 @@ The live link can be found here - https://aliceohio.github.io/reimagine.classica
 
 ## Credits
 
-- The basic framework was inspired by the Love Running project by Code Institute (https://github.com/Code-Institute-Org/love-running-2.0)
-- The button was designed using code from developer.mozilla.org (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
-- The footer html code was taken directly from the Love Running Project by Code Institute.
-- Additional methodologies / techniques (ie flexbox, grid, text fading in over image with an overlay on that image) were acquired from YouTube videos from either Kevin Powell (https://www.youtube.com/@KevinPowell) or Kyle at webdevsimplified (https://www.youtube.com/c/webdevsimplified)
+- The basic framework was inspired by the [Love Running project by Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)
+- The button was designed using code from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+- The footer html code was taken directly from the [Love Running Project by Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)
+- Additional methodologies / techniques (ie flexbox, grid, text fading in over image with an overlay on that image) were acquired from YouTube videos from either [Kevin Powell](https://www.youtube.com/@KevinPowell) or [Kyle at webdevsimplified](https://www.youtube.com/c/webdevsimplified)
+- I reduced all images using [tinyjpg.com](https://tinyjpg.com)
 - I am very thankful to my mentor, who provided me not only with many online resources to ensure accessibility and accuracy in my code, but also gave me additinal hints and tips for refinement. Thanks Gareth!
 
 
 ## Media
 
-- The images throughout the website were taken from Pexels.com
-- The footer icons were taken from Font Awesome
-- The favicon was created using favicon.io
+- The images throughout the website were taken from [Pexels.com](https://www.pexels.com/)
+- The footer icons were taken from [Font Awesome](https://fontawesome.com/)
+- The favicon was created using [favicon.io](favicon.io)
 
 
