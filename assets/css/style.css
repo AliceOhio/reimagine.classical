@@ -24,22 +24,6 @@ h2 {
     font-size: 200%;
 }
 
-/* h3 {
-    font-family: 'Quicksand', sans-serif;
-    text-transform: lowercase;
-    letter-spacing: 5px;
-    color: #453d31;
-    font-size: 150%;
-}
-
-h4 {
-    font-family: 'Martel', sans-serif;
-    color: #D5D1CB;
-    text-align: center;
-    font-size: 120%;
-    font-weight: 600;
-} */
-
 /* navigation links */
 #navbar {
     font-size: 100%;
@@ -214,7 +198,6 @@ a:visited {
 }
 
 /* lets talk */
-
 button,
 input,
 select,
@@ -277,7 +260,8 @@ textarea {
     margin-right: 15px;
 }
 
-#name, #email {
+#name,
+#email {
     margin-left: 5px;
     margin-right: 15px;
 }
@@ -285,10 +269,8 @@ textarea {
 .contactinfo {
     display: flex;
     flex-wrap: nowrap;
-    /* align-content: normal; */
     align-items: center;
     justify-content: space-between;
-    /* width: max-content; */
 }
 
 .musicstyles {
@@ -303,7 +285,7 @@ textarea {
 }
 
 .addlinfo {
-    text-align: center; 
+    text-align: center;
 }
 
 #addllabel {
@@ -382,7 +364,6 @@ footer {
 }
 
 /* 404 not found page */
-
 .notfoundimg {
     background-image: url(../images/letstalkimg.webp);
     background-size: cover;
@@ -421,31 +402,7 @@ footer {
 
 /* media queries */
 
-@media (hover: hover) {
-    .img-wrapper>img,
-    .img-wrapper>.content {
-        transition: 200ms ease-in-out;
-    }
-    
-    .img-wrapper>img {
-        filter: none;
-    }
-    
-    .img-wrapper>.content.fade {
-        opacity: 0;
-    }
-    
-    .img-wrapper:hover>.content.fade {
-            opacity: 1;
-        }
-        
-        .img-wrapper:hover>img.blur {
-            filter: blur(5px)
-        }
-    }
-
 /* For larger to medium screens size from 1200px wide and down */
-
 @media screen and (max-width: 1200px) {
     .body {
         width: 100%;
@@ -457,6 +414,7 @@ footer {
     .img-wrapper>.content {
         font-size: 16px;
     }
+
     .hero-image {
         width: 115dvw;
     }
@@ -496,7 +454,6 @@ footer {
 }
 
 /* For medium screen sizes 800px and down */
-
 @media screen and (max-width: 800px) and (min-width: 673px) {
     .body {
         overflow: scroll;
@@ -553,11 +510,11 @@ footer {
     .musicstyles {
         font-size: 80%;
     }
-    
+
     .musicstyles label {
         font-size: 80%;
     }
-    
+
     #addllabel {
         font-size: 100%;
     }
@@ -580,9 +537,7 @@ footer {
 }
 
 /* For small screen sizes 672px and down */
-
 @media screen and (max-width: 672px) {
-
     .body {
         overflow: scroll;
     }
@@ -652,11 +607,11 @@ footer {
     .musicstyles {
         font-size: 80%;
     }
-    
+
     .musicstyles label {
         font-size: 80%;
     }
-    
+
     #addllabel {
         font-size: 100%;
     }
@@ -679,10 +634,7 @@ footer {
 }
 
 /* For small screens in landscape mode 400px wide and down */
-
 @media screen and (max-width: 932px) and (orientation: landscape) {
-
-
     .body {
         overflow: scroll;
     }
@@ -734,7 +686,6 @@ footer {
 
     .aboutme p {
         font-size: 60%;
-        /* width: 100ch; */
         padding-bottom: 0.5%;
     }
 
@@ -753,7 +704,7 @@ footer {
     .contactinfo {
         font-size: 80%;
     }
-    
+
     .letstalkimg h2 {
         font-size: 100%;
     }
@@ -761,11 +712,11 @@ footer {
     .musicstyles {
         font-size: 80%;
     }
-    
+
     .musicstyles label {
         font-size: 80%;
     }
-    
+
     #addllabel {
         font-size: 100%;
     }
@@ -793,26 +744,28 @@ footer {
         font-size: 100%;
     }
 }
-/* 
+
+/* Hover effect and location from WebDevSimplified https://github.com/WebDevSimplified/css-image-hover-effect and Kevin Powell */
 @media (hover: hover) {
-.img-wrapper>img,
-.img-wrapper>.content {
-    transition: 200ms ease-in-out;
-}
 
-.img-wrapper>img {
-    filter: none;
-}
+    .img-wrapper>img,
+    .img-wrapper>.content {
+        transition: 200ms ease-in-out;
+    }
 
-.img-wrapper>.content.fade {
-    opacity: 0;
-}
+    .img-wrapper>img {
+        filter: none;
+    }
 
-.img-wrapper:hover>.content.fade {
+    .img-wrapper>.content.fade {
+        opacity: 0;
+    }
+
+    .img-wrapper:hover>.content.fade {
         opacity: 1;
     }
-    
+
     .img-wrapper:hover>img.blur {
         filter: blur(5px)
     }
-} */
+}

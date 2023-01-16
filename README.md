@@ -181,6 +181,8 @@ Using only CSS and HTML limits the number of music styles in the Let's Talk Page
 
 Additionally, due to the limitations of HTML and CSS, I created a custom thank you form to show user that form was submitted and I will be in contact. 
 
+When using devtools the hover effect does not always work (i.e. the screen shows the facts with a blurred overlay on the image). However the hover effect works outside of devtools.
+
 ## Deployment
 
 - This website was deployed to GitHub page using the following steps:
