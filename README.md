@@ -10,6 +10,8 @@ When you think of Debussy or Mozart you don't want to hear just anyone perform. 
 
 My goal through this website is to create a service in which I help you to experience the same passion I have for classical music by creating a specific collection of classical pieces based on your current listening preferences. By asking a few questions initially, and through our contact after you fill out the "let's talk" form, I will take time to curate your individualized playlist.
 
+![crMockup](docs/readme_images/Screenshot%20multiple.devices)
+
 ## FEATURES
 
 ### Existing features:
