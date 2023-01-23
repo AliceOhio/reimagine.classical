@@ -214,7 +214,7 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #D5D1CB;
-    height: 80dvh;
+    height: 85dvh;
     width: 100dvw;
 }
 
@@ -701,6 +701,10 @@ footer {
         padding-bottom: 5%;
     }
 
+    .form {
+        overflow: scroll;
+    }
+    
     .contactinfo {
         font-size: 80%;
     }
