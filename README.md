@@ -10,7 +10,7 @@ When you think of Debussy or Mozart you don't want to hear just anyone perform. 
 
 My goal through this website is to create a service in which I help you to experience the same passion I have for classical music by creating a specific collection of classical pieces based on your current listening preferences. By asking a few questions initially, and through our contact after you fill out the "let's talk" form, I will take time to curate your individualized playlist.
 
-![crMockup](docs/readme_images/Screenshot%20multiple.devices)
+![crMockup](docs/readme_images/screenshot.multiple.devices)
 
 ## FEATURES
 
@@ -22,26 +22,26 @@ My goal through this website is to create a service in which I help you to exper
 
     - The navigation bar allows the user to move easily from one page to another, across all devices and layouts (portrait or landscape) without having to use the 'back' button.
 
-    ![NavigationBar](docs/readme_images/Screenshot%20NavBar)
+    ![NavigationBar](docs/readme_images/screenshot.NavBar)
     
 - The Landing Page
 
     - The landing page image is a pair of over-the-ear headphones with the logo of reimagine classical over the image.
     - There is a brief tag directly under clarifying the branding information.
 
-    ![LandingPage](docs/readme_images/Screenshot%20LandingPage)
+    ![LandingPage](docs/readme_images/screenshot.LandingPage)
 
 - The Footer
 
     - The footer section allows the user to visit my personal page on relevant social media sites, including my CV on linkedin. The links open in a new tab to allow for simplified user navigation.
 
-    ![Footer](docs/readme_images/Screenshot%20Footer)
+    ![Footer](docs/readme_images/screenshot.Footer)
 
 - The Favicon
 
     - The favicon represents a simple image of the first two letters of the concept, reimagine classical, and is featured on every page.
 
-    ![Favicon](docs/readme_images/Screenshot%20favicon.ico)
+    ![Favicon](docs/readme_images/screenshot.favicon.ico)
 
 - The Classical Facts Page
 
@@ -54,9 +54,10 @@ My goal through this website is to create a service in which I help you to exper
         - On large screens, the facts present themself only with the use of a hover effect.
         - On smaller screens, the facts present themselfs without use of hover.
 
-    ![ClassicalFactsClear](docs/readme_images/Screenshot-CFclear)
+    ![ClassicalFactsClear](docs/readme_images/screenshot.CFclear)
 
-    ![ClassicalFactsBlur](docs/readme_images/Screenshot-CFblur)
+    ![ClassicalFactsBlur](docs/readme_images/screenshot.CFblur)
+    creenshot.CFblur)
 
 - The About Me Page
 
@@ -66,7 +67,7 @@ My goal through this website is to create a service in which I help you to exper
         - The first link is an external link to a biography of my music teacher and opens in a new window, for improved user experience.
         - The second link in an internal link to the "let's talk" page to encourage interaction with the user.
 
-    ![AboutMe](docs/readme_images/Screenshot-AM)
+    ![AboutMe](docs/readme_images/screenshot.AM)
 
 - The Let's Talk Page
 
@@ -83,16 +84,16 @@ My goal through this website is to create a service in which I help you to exper
         - a submit button, and when the form is submitted, 
         - a custom thank you for contacting me page.
 
-    ![LetsTalk](docs/readme_images/Screenshot-LT)
+    ![LetsTalk](docs/readme_images/screenshot.LT)
 
-    ![Thanks](docs/readme_images/Screenshot%20ContactPage)
+    ![Thanks](docs/readme_images/screenshot.ContactPage)
 
 - The 404 Not Found Page
 
     - There is a custom 404 not found page which provides a link back to the landing page if a user navigates to a broken link.
         - The link does not open in a new window as it functions as a return.
 
-    ![404Page](docs/readme_images/Screenshot%20404Page)
+    ![404Page](docs/readme_images/screenshot.404Page)
 
 
 
@@ -123,26 +124,26 @@ My goal through this website is to create a service in which I help you to exper
 - HTML - [W3C Validator](https://validator.w3.org/#validate_by_input)
     - The Landing Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](docs/testing_images/Screenshot%20index%20html%20w3)
+        ![HTMLw3Testing](docs/testing_images/screenshot.index.html.w3)
     - The Classical Facts Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](docs/testing_images/Screenshot%20cfacts%20html%20w3)
+        ![HTMLw3Testing](docs/testing_images/screenshot.cfacts.html.w3)
     - The About Me Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](docs/testing_images/Screenshot%20aboutme%20html%20w3)
+        ![HTMLw3Testing](docs/testing_images/screenshot.aboutme.html.w3)
     - The Let's Talk Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](docs/testing_images/Screenshot%20letstalk%20html%20w3)
+        ![HTMLw3Testing](docs/testing_images/screenshot.letstalk.html.w3)
     - The Contact Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](docs/testing_images/Screenshot%20contactthanks%20html%20w3)
+        ![HTMLw3Testing](docs/testing_images/screenshot.contactthanks.html.w3)
     - The 404 Not Found Page
         - No errors were returned when passing through the official W3C validator
-        ![HTMLw3Testing](docs/testing_images/Screenshot%20404%20html%20w3)
+        ![HTMLw3Testing](docs/testing_images/screenshot.404.html.w3)
 
 - CSS [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
     - No errors were found when passing through the official (Jigsaw) validator
-    ![CSSw3Testing](docs/testing_images/Screenshot-CSSw3Testing)
+    ![CSSw3Testing](docs/testing_images/screenshot.CSSw3Testing)
 
 ### [WAVE Testing](https://wave.webaim.org) 
 - There were no errors nor alerts throughout the website using WAVE (the web accessibility evaluation tool).
@@ -152,28 +153,28 @@ My goal through this website is to create a service in which I help you to exper
 
 - The Landing Page
 
-    ![LP.Lighthouse](docs/testing_images/Screenshot%20LP.Lighthouse)
+    ![LP.Lighthouse](docs/testing_images/screenshot.LP.Lighthouse)
 
 
 - The Classical Facts Page
 
-    ![CF.Lighthouse](docs/testing_images/Screenshot%20CF.Lighthouse)
+    ![CF.Lighthouse](docs/testing_images/screenshot.CF.Lighthouse)
 
 - The About Me Page
 
-    ![AM.Lighthouse](docs/testing_images/Screenshot%20AM.Lighthouse)
+    ![AM.Lighthouse](docs/testing_images/screenshot.AM.Lighthouse)
 
 - The Let's Talk Page
 
-    ![LT.Lighthouse](docs/testing_images/Screenshot%20LT.Lighthouse)
+    ![LT.Lighthouse](docs/testing_images/screenshot.LT.Lighthouse)
 
 - The 404 Not Found Page
 
-    ![404.Lighthouse](docs/testing_images/Screenshot%20404.Lighthouse)
+    ![404.Lighthouse](docs/testing_images/screenshot.404.Lighthouse)
 
 - The Contact Page
 
-    ![ContactThanks.Lighthouse](docs/testing_images/Screenshot%20contactthanks.lighthouse)
+    ![ContactThanks.Lighthouse](docs/testing_images/screenshot.contactthanks.lighthouse)
 
 - The let's talk form was tested to ensure required inputs were in fact required (name and email) as well as the proper submission goes to the contact page.
 
