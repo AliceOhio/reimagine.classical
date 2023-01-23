@@ -57,7 +57,6 @@ My goal through this website is to create a service in which I help you to exper
     ![ClassicalFactsClear](docs/readme_images/screenshot.CFclear)
 
     ![ClassicalFactsBlur](docs/readme_images/screenshot.CFblur)
-    creenshot.CFblur)
 
 - The About Me Page
 
